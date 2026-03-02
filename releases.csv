@@ -55,7 +55,7 @@ Azure NetApp Files,Microsoft.NetApp,netapp,,Done,,,,,,
 Network Cloud,Microsoft.NetworkCloud,networkcloud,,NO_SPEC,,,,,,
 Liftr-Newrelic,NewRelic.Observability,newrelic,,,,,,specification/newrelic/NewRelicObservability.Management/tspconfig.yaml,2025-05-01-preview,
 Liftr-PAN,PaloAltoNetworks.Cloudngfw,paloaltonetworks,,Done,,,,,,
-Azure Database for PostgreSQL - Flexible Server,microsoft.dbforpostgresql,postgresql,,,,,,specification/postgresql/DBforPostgreSQL.Management/tspconfig.yaml,2026-01-01-preview,
+Azure Database for PostgreSQL - Flexible Server,microsoft.dbforpostgresql,postgresql,,,,,,specification/postgresql/DBforPostgreSQL.Management/tspconfig.yaml,2026-01-01-preview,inconsistent
 Arc Appliance,Microsoft.ResourceConnector,resourceconnector,,Done,,,,,,
 WATM (offering: Traffic Manager),Microsoft.Network,trafficmanager,,Premium,,,,,,
 API Management,microsoft.apimanagement,apimanagement,,,,,,specification/apimanagement/resource-manager/Microsoft.ApiManagement/ApiManagement/tspconfig.yaml,2025-03-01-preview,2024-05-01
@@ -84,6 +84,6 @@ Network Cloud,Microsoft.NetworkCloud,networkcloud,,NO_SPEC,,,,,,
 Purview,Microsoft.Purview,purview,,,,,,specification/purview/resource-manager/Microsoft.Purview/Purview/tspconfig.yaml,2024-04-01-preview,2021-07-01
 Azure Site Recovery,Microsoft.RecoveryServices,recoveryservicessiterecovery,,,,,,specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/tspconfig.yaml,2025-08-01,2025-01-01
 Azure Search,Microsoft.Search,search,,Premium,,,,,,
-Azure Frontdoor,Microsoft.Network,frontdoor,,,,,,specification/frontdoor/FrontDoor.Management/tspconfig.yaml,2025-10-01,
+Azure Frontdoor,Microsoft.Network,frontdoor,,,,,,specification/frontdoor/FrontDoor.Management/tspconfig.yaml,2025-10-01,inconsistent
 NFV Resource Provider,Microsoft.NetworkFunction,networkfunction,,,,,,specification/networkfunction/NetworkFunction.Management/tspconfig.yaml,2022-11-01,2022-11-01
 Sevice Fabric,Microsoft.ServiceFabric,servicefabric,,,,,,specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/tspconfig.yaml,2026-03-01-preview,2021-06-01
