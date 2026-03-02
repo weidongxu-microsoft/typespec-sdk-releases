@@ -1,89 +1,89 @@
-Service,ARM Namespace,Spec Folder,.Net,Java,Python,JS,GO
-Azure Storage Actions,Microsoft.StorageActions,storageactions,Done,Done,,,
-Bing Search APIs,Microsoft.Bing,bing,,,,,
-Reservations RP,Microsoft.BillingBenefits,billingbenefits,,,,,
-Azure Device Provisioning Service,Microsoft.Devices,deviceprovisioningservices,Done,Done,,,
-Azure DNS Public Zones,Microsoft.Network,dns,,Premium,,,
-Azure Edge Hardware Center,Microsoft.EdgeOrder,edgeorder,Done,,,,
-SRP,Microsoft.ElasticSan,elasticsan,Done,Done,,,
-Azure Automanage,Microsoft.GuestConfiguration,guestconfiguration,,,,,
-Azure Dedicated HSM,Microsoft.HardwareSecurityModules,hardwaresecuritymodules,Done,Done,,,
-Microsoft Diagnostics RP,Microsoft.Help,help,Done,,,,
-Kubernetes Connect Service,Microsoft.Kubernetes,hybridkubernetes,Done,,,,
-Planned Maintenance,Microsoft.Maintenance,maintenance,,,,,
-Azure Notification Hubs,Microsoft.NotificationHubs,notificationhubs,,,,,
-Azure DNS Private Zones,Microsoft.Network,privatedns,,,,,
-Azure Site Recovery,Microsoft.RecoveryServices,recoveryservices,,Done,,,
-SQL IaaS,Microsoft.SqlVirtualMachine,sqlvirtualmachine,Done,,,,
-Liftr-Confluent,Microsoft.Confluent,confluent,,Done,,,
-Azure Bot Service,Microsoft.BotService,botservice,,,,,
-Fabric Platform MWC,Microsoft.PowerBIdedicated,powerbidedicated,Done,,,,
-Azure Advisor,Microsoft.Advisor,advisor,,,,,
-CDN Management Service,Microsoft.Cdn,cdn,,Done,,,
-Azure Confidential Computing Ledger,Microsoft.ConfidentialLedger,confidentialledger,,,,,
-DataBox Pod & Disk Service,microsoft.databox,databox,,,,,
-Liftr-Datadog,microsoft.datadog,datadog,,,,,
-Backup (MAB),Microsoft.DataProtection,dataprotection,,Done,,,
-DevCenter,Microsoft.DevCenter,devcenter,,,,,
-Azure DNS Private Resolver,Microsoft.Network,dnsresolver,,Done,,,
-Liftr-Elastic,Microsoft.Elastic,elastic,Done,,,,
-Microsoft Health Agent - HealthBot,Microsoft.HealthBot,healthbot,Done,Done,,,
-Azure Key Vault,Microsoft.KeyVault,keyvault,Done,Done,,,
-Managed Service Identity,microsoft.managedidentity,msi,,Premium,,,
-Azure Database for MySQL - Flexible Server,microsoft.dbformysql,mysql,,,,,
-Liftr-Nginx,nginx.nginxplus,nginx,,Done,,,
-Azure Cosmos DB for PostgreSQL,microsoft.dbforpostgresql,postgresqlhsc,,,,,
-QuotaManagement,Microsoft.Quota,quota,,Done,,,
-Backup (MAB),microsoft.recoveryservices,recoveryservicesbackup,,Done,,,
-Redis Cache,microsoft.cache,redis,,Premium,,,
-Service Bus,microsoft.relay,relay,,,,,
-Service Bus,microsoft.servicebus,servicebus,,Premium,,,
-Azure SignalR Service,Microsoft.SignalRService,signalr,,,,,
-SRP,microsoft.storage,storage,,Premium,,,
-Azure Storage Mover,Microsoft.StorageMover,storagemover,,Done,,,
-Xsync,microsoft.storagesync,storagesync,,,,,
-Azure Support Case Mgmt,microsoft.support,support,,,,,
-Azure SignalR Service,Microsoft.SignalRService,webpubsub,,,,,
-Compute Recommender,,compute/Recommender,,,,,
-Liftr-Dynatrace,dynatrace.observability,dynatrace,,,,,
-Azure App Configuration,Microsoft.AppConfiguration,appconfiguration,,Done,,,
-CCM API - Consupmtion,microsoft.consumption,consumption,,,,,
-CCM API - CostManagement,microsoft.costmanagement,cost-management,,,,,
-Azure Stack Edge Service,microsoft.databoxedge,databoxedge,,,,,
-Service Bus,Microsoft.EventHub,eventhub,,Premium,,,
-Azure NetApp Files,Microsoft.NetApp,netapp,,Done,,,
-Network Cloud,Microsoft.NetworkCloud,networkcloud,,,,,
-Liftr-Newrelic,NewRelic.Observability,newrelic,,,,,
-Liftr-PAN,PaloAltoNetworks.Cloudngfw,paloaltonetworks,,Done,,,
-Azure Database for PostgreSQL - Flexible Server,microsoft.dbforpostgresql,postgresql,,,,,
-Arc Appliance,Microsoft.ResourceConnector,resourceconnector,,Done,,,
-WATM (offering: Traffic Manager),Microsoft.Network,trafficmanager,,Premium,,,
-API Management,microsoft.apimanagement,apimanagement,,,,,
-Microsoft Azure Attestation,Microsoft.Attestation,attestation,,,,,
-Azure Batch,Microsoft.Batch,batch,,,,,
-Azure Container Registry,Microsoft.ContainerRegistry,containerregistry,,Done,,,
-Azure Monitor Grafana,Microsoft.Dashboard,dashboard,,Done,,,
-AIOps Orchestration,Microsoft.HybridNetwork,hybridnetwork,,,,,
-Project Vienna Services,Microsoft.MachineLearningServices,machinelearningservices,,,,,
-Groups RP,Microsoft.Management,management/Microsoft.Management/ManagementGroups,,,,,
-Microsoft Azure Peering Service,Microsoft.Peering,peering,,,,,
-Resource Provider Service as a Service,Microsoft.ProviderHub,providerhub,,,,,
-Redis Enterprise,Microsoft.Cache,redisenterprise,,,,,
-Azure Policy,Microsoft.Authorization,resources/Microsoft.Authorization/policy,,Done,,,
-App Service (Web Apps),microsoft.web,web,,Done,,,
-App Service (Web Apps),microsoft.web,web/certificationregistration,,Done,,,
-App Service (Web Apps),microsoft.web,web/domainregistration,,Done,,,
-Azure Alerts Management,Microsoft.AlertsManagement,alertsmanagement,,,,,
-Azure Stack HCI,Microsoft.AzureStackHCI,azurestackhci,,Done,,,
-Usage (Usage V3),Microsoft.Commerce,commerce,,,,,
-Azure Kubernetes Service,microsoft.containerservice,containerservice,,,,,
-Cluster Configuration,Microsoft.KubernetesConfiguration,kubernetesconfiguration,,,,,
-Azure Maps,Microsoft.Maps,maps,,,,,
-CPX-Marketplace-PrivateMarketplace,Microsoft.Marketplace,marketplace,,,,,
-Network Cloud,Microsoft.NetworkCloud,networkcloud,,,,,
-Purview,Microsoft.Purview,purview,,,,,
-Azure Site Recovery,Microsoft.RecoveryServices,recoveryservicessiterecovery,,,,,
-Azure Search,Microsoft.Search,search,,Premium,,,
-Azure Frontdoor,Microsoft.Network,frontdoor,,,,,
-NFV Resource Provider,Microsoft.NetworkFunction,networkfunction,,,,,
-Sevice Fabric,Microsoft.ServiceFabric,servicefabric,,,,,
+Service,ARM Namespace,Spec Folder,.Net,Java,Python,JS,GO,tspconfig
+Azure Storage Actions,Microsoft.StorageActions,storageactions,Done,Done,,,,
+Bing Search APIs,Microsoft.Bing,bing,,NO_SPEC,,,,
+Reservations RP,Microsoft.BillingBenefits,billingbenefits,,,,,,specification/billingbenefits/BillingBenefits.Management/tspconfig.yaml
+Azure Device Provisioning Service,Microsoft.Devices,deviceprovisioningservices,Done,Done,,,,
+Azure DNS Public Zones,Microsoft.Network,dns,,Premium,,,,
+Azure Edge Hardware Center,Microsoft.EdgeOrder,edgeorder,Done,,,,,specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/tspconfig.yaml
+SRP,Microsoft.ElasticSan,elasticsan,Done,Done,,,,
+Azure Automanage,Microsoft.GuestConfiguration,guestconfiguration,,,,,,specification/guestconfiguration/resource-manager/Microsoft.GuestConfiguration/Assignments/tspconfig.yaml
+Azure Dedicated HSM,Microsoft.HardwareSecurityModules,hardwaresecuritymodules,Done,Done,,,,
+Microsoft Diagnostics RP,Microsoft.Help,help,Done,,,,,specification/help/resource-manager/Microsoft.Help/Help/tspconfig.yaml
+Kubernetes Connect Service,Microsoft.Kubernetes,hybridkubernetes,Done,,,,,specification/hybridkubernetes/HybridKubernetes.Management/tspconfig.yaml
+Planned Maintenance,Microsoft.Maintenance,maintenance,,,,,,specification/maintenance/resource-manager/Microsoft.Maintenance/Maintenance/tspconfig.yaml
+Azure Notification Hubs,Microsoft.NotificationHubs,notificationhubs,,,,,,specification/notificationhubs/resource-manager/Microsoft.NotificationHubs/NotificationHubs/tspconfig.yaml
+Azure DNS Private Zones,Microsoft.Network,privatedns,,,,,,specification/privatedns/resource-manager/Microsoft.Network/PrivateDns/tspconfig.yaml
+Azure Site Recovery,Microsoft.RecoveryServices,recoveryservices,,Done,,,,
+SQL IaaS,Microsoft.SqlVirtualMachine,sqlvirtualmachine,Done,,,,,specification/sqlvirtualmachine/resource-manager/Microsoft.SqlVirtualMachine/SqlVirtualMachine/tspconfig.yaml
+Liftr-Confluent,Microsoft.Confluent,confluent,,Done,,,,
+Azure Bot Service,Microsoft.BotService,botservice,,,,,,specification/botservice/resource-manager/Microsoft.BotService/BotService/tspconfig.yaml
+Fabric Platform MWC,Microsoft.PowerBIdedicated,powerbidedicated,Done,,,,,specification/powerbidedicated/resource-manager/Microsoft.PowerBIdedicated/PowerBIDedicated/tspconfig.yaml
+Azure Advisor,Microsoft.Advisor,advisor,,,,,,specification/advisor/resource-manager/Microsoft.Advisor/Advisor/tspconfig.yaml
+CDN Management Service,Microsoft.Cdn,cdn,,Done,,,,
+Azure Confidential Computing Ledger,Microsoft.ConfidentialLedger,confidentialledger,,,,,,specification/confidentialledger/Confidentialledger.Management/tspconfig.yaml
+DataBox Pod & Disk Service,microsoft.databox,databox,,,,,,specification/databox/resource-manager/Microsoft.DataBox/DataBox/tspconfig.yaml
+Liftr-Datadog,microsoft.datadog,datadog,,,,,,specification/datadog/Datadog.Management/tspconfig.yaml
+Backup (MAB),Microsoft.DataProtection,dataprotection,,Done,,,,
+DevCenter,Microsoft.DevCenter,devcenter,,,,,,specification/devcenter/DevCenter.Management/tspconfig.yaml
+Azure DNS Private Resolver,Microsoft.Network,dnsresolver,,Done,,,,
+Liftr-Elastic,Microsoft.Elastic,elastic,Done,,,,,specification/elastic/Elastic.Management/tspconfig.yaml
+Microsoft Health Agent - HealthBot,Microsoft.HealthBot,healthbot,Done,Done,,,,
+Azure Key Vault,Microsoft.KeyVault,keyvault,Done,Done,,,,
+Managed Service Identity,microsoft.managedidentity,msi,,Premium,,,,
+Azure Database for MySQL - Flexible Server,microsoft.dbformysql,mysql,,,,,,specification/mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/tspconfig.yaml
+Liftr-Nginx,nginx.nginxplus,nginx,,Done,,,,
+Azure Cosmos DB for PostgreSQL,microsoft.dbforpostgresql,postgresqlhsc,,,,,,specification/postgresqlhsc/resource-manager/Microsoft.DBforPostgreSQL/PostgresqlHsc/tspconfig.yaml
+QuotaManagement,Microsoft.Quota,quota,,Done,,,,
+Backup (MAB),microsoft.recoveryservices,recoveryservicesbackup,,Done,,,,
+Redis Cache,microsoft.cache,redis,,Premium,,,,
+Service Bus,microsoft.relay,relay,,,,,,specification/relay/resource-manager/Microsoft.Relay/Relay/tspconfig.yaml
+Service Bus,microsoft.servicebus,servicebus,,Premium,,,,
+Azure SignalR Service,Microsoft.SignalRService,signalr,,,,,,specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService/tspconfig.yaml
+SRP,microsoft.storage,storage,,Premium,,,,
+Azure Storage Mover,Microsoft.StorageMover,storagemover,,Done,,,,
+Xsync,microsoft.storagesync,storagesync,,,,,,specification/storagesync/resource-manager/Microsoft.StorageSync/StorageSync/tspconfig.yaml
+Azure Support Case Mgmt,microsoft.support,support,,,,,,specification/support/resource-manager/Microsoft.Support/Support/tspconfig.yaml
+Azure SignalR Service,Microsoft.SignalRService,webpubsub,,,,,,specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService/tspconfig.yaml
+Compute Recommender,,compute/Recommender,,Done,,,,
+Liftr-Dynatrace,dynatrace.observability,dynatrace,,,,,,specification/dynatrace/Dynatrace.Management/tspconfig.yaml
+Azure App Configuration,Microsoft.AppConfiguration,appconfiguration,,Done,,,,
+CCM API - Consupmtion,microsoft.consumption,consumption,,,,,,specification/consumption/resource-manager/Microsoft.Consumption/Consumption/tspconfig.yaml
+CCM API - CostManagement,microsoft.costmanagement,cost-management,,,,,,specification/cost-management/resource-manager/Microsoft.CostManagement/CostManagement/tspconfig.yaml
+Azure Stack Edge Service,microsoft.databoxedge,databoxedge,,,,,,specification/databoxedge/resource-manager/Microsoft.DataBoxEdge/DataBoxEdge/tspconfig.yaml
+Service Bus,Microsoft.EventHub,eventhub,,Premium,,,,
+Azure NetApp Files,Microsoft.NetApp,netapp,,Done,,,,
+Network Cloud,Microsoft.NetworkCloud,networkcloud,,,,,,
+Liftr-Newrelic,NewRelic.Observability,newrelic,,,,,,specification/newrelic/NewRelicObservability.Management/tspconfig.yaml
+Liftr-PAN,PaloAltoNetworks.Cloudngfw,paloaltonetworks,,Done,,,,
+Azure Database for PostgreSQL - Flexible Server,microsoft.dbforpostgresql,postgresql,,,,,,specification/postgresql/DBforPostgreSQL.Management/tspconfig.yaml
+Arc Appliance,Microsoft.ResourceConnector,resourceconnector,,Done,,,,
+WATM (offering: Traffic Manager),Microsoft.Network,trafficmanager,,Premium,,,,
+API Management,microsoft.apimanagement,apimanagement,,,,,,specification/apimanagement/resource-manager/Microsoft.ApiManagement/ApiManagement/tspconfig.yaml
+Microsoft Azure Attestation,Microsoft.Attestation,attestation,,,,,,specification/attestation/resource-manager/Microsoft.Attestation/Attestation/tspconfig.yaml
+Azure Batch,Microsoft.Batch,batch,,,,,,specification/batch/resource-manager/Microsoft.Batch/Batch/tspconfig.yaml
+Azure Container Registry,Microsoft.ContainerRegistry,containerregistry,,Done,,,,
+Azure Monitor Grafana,Microsoft.Dashboard,dashboard,,Done,,,,
+AIOps Orchestration,Microsoft.HybridNetwork,hybridnetwork,,,,,,
+Project Vienna Services,Microsoft.MachineLearningServices,machinelearningservices,,,,,,specification/machinelearningservices/MachineLearningServices.Management/tspconfig.yaml
+Groups RP,Microsoft.Management,management/Microsoft.Management/ManagementGroups,,,,,,
+Microsoft Azure Peering Service,Microsoft.Peering,peering,,,,,,specification/peering/resource-manager/Microsoft.Peering/Peering/tspconfig.yaml
+Resource Provider Service as a Service,Microsoft.ProviderHub,providerhub,,,,,,specification/providerhub/ProviderHub.Management/tspconfig.yaml
+Redis Enterprise,Microsoft.Cache,redisenterprise,,,,,,specification/redisenterprise/RedisEnterprise.Management/tspconfig.yaml
+Azure Policy,Microsoft.Authorization,resources/Microsoft.Authorization/policy,,Done,,,,
+App Service (Web Apps),microsoft.web,web,,Done,,,,
+App Service (Web Apps),microsoft.web,web/certificationregistration,,Done,,,,
+App Service (Web Apps),microsoft.web,web/domainregistration,,Done,,,,
+Azure Alerts Management,Microsoft.AlertsManagement,alertsmanagement,,,,,,specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/tspconfig.yaml
+Azure Stack HCI,Microsoft.AzureStackHCI,azurestackhci,,Done,,,,
+Usage (Usage V3),Microsoft.Commerce,commerce,,,,,,specification/commerce/resource-manager/Microsoft.Commerce/Commerce/tspconfig.yaml
+Azure Kubernetes Service,microsoft.containerservice,containerservice,,,,,,specification/containerservice/resource-manager/Microsoft.ContainerService/aks/tspconfig.yaml
+Cluster Configuration,Microsoft.KubernetesConfiguration,kubernetesconfiguration,,,,,,specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions/tspconfig.yaml
+Azure Maps,Microsoft.Maps,maps,,,,,,specification/maps/resource-manager/Microsoft.Maps/Maps/tspconfig.yaml
+CPX-Marketplace-PrivateMarketplace,Microsoft.Marketplace,marketplace,,,,,,specification/marketplace/resource-manager/Microsoft.Marketplace/Marketplace/tspconfig.yaml
+Network Cloud,Microsoft.NetworkCloud,networkcloud,,,,,,
+Purview,Microsoft.Purview,purview,,,,,,specification/purview/resource-manager/Microsoft.Purview/Purview/tspconfig.yaml
+Azure Site Recovery,Microsoft.RecoveryServices,recoveryservicessiterecovery,,,,,,specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/tspconfig.yaml
+Azure Search,Microsoft.Search,search,,Premium,,,,
+Azure Frontdoor,Microsoft.Network,frontdoor,,,,,,specification/frontdoor/FrontDoor.Management/tspconfig.yaml
+NFV Resource Provider,Microsoft.NetworkFunction,networkfunction,,,,,,specification/networkfunction/NetworkFunction.Management/tspconfig.yaml
+Sevice Fabric,Microsoft.ServiceFabric,servicefabric,,,,,,specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/tspconfig.yaml
