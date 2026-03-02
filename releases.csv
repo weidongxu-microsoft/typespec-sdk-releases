@@ -76,7 +76,7 @@ App Service (Web Apps),microsoft.web,web/domainregistration,,Done,,,,,,
 Azure Alerts Management,Microsoft.AlertsManagement,alertsmanagement,,,,,,specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/tspconfig.yaml,2021-08-08,2021-08-08
 Azure Stack HCI,Microsoft.AzureStackHCI,azurestackhci,,Done,,,,,,
 Usage (Usage V3),Microsoft.Commerce,commerce,,,,,,specification/commerce/resource-manager/Microsoft.Commerce/Commerce/tspconfig.yaml,2015-06-01-preview,2015-06-01-preview
-Azure Kubernetes Service,microsoft.containerservice,containerservice,,,,,,specification/containerservice/resource-manager/Microsoft.ContainerService/aks/tspconfig.yaml,2025-10-02-preview,
+Azure Kubernetes Service,microsoft.containerservice,containerservice,,Premium,,,,specification/containerservice/resource-manager/Microsoft.ContainerService/aks/tspconfig.yaml,2025-10-02-preview,
 Cluster Configuration,Microsoft.KubernetesConfiguration,kubernetesconfiguration,,,,,,specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions/tspconfig.yaml,2024-11-01,2023-05-01
 Azure Maps,Microsoft.Maps,maps,,,,,,specification/maps/resource-manager/Microsoft.Maps/Maps/tspconfig.yaml,2025-10-01-preview,2023-06-01
 CPX-Marketplace-PrivateMarketplace,Microsoft.Marketplace,marketplace,,,,,,specification/marketplace/resource-manager/Microsoft.Marketplace/Marketplace/tspconfig.yaml,2025-01-01,
