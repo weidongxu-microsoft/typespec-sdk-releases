@@ -6,7 +6,7 @@ Azure Device Provisioning Service,Microsoft.Devices,deviceprovisioningservices,D
 Azure DNS Public Zones,Microsoft.Network,dns,,Premium,,,,,,
 Azure Edge Hardware Center,Microsoft.EdgeOrder,edgeorder,Done,,,,,specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/tspconfig.yaml,2024-02-01,2021-12-01
 SRP,Microsoft.ElasticSan,elasticsan,Done,Done,,,,,,
-Azure Automanage,Microsoft.GuestConfiguration,guestconfiguration,,,,,,specification/guestconfiguration/resource-manager/Microsoft.GuestConfiguration/Assignments/tspconfig.yaml,2024-04-05,
+Azure Automanage,Microsoft.GuestConfiguration,guestconfiguration,,,,,,specification/guestconfiguration/resource-manager/Microsoft.GuestConfiguration/Assignments/tspconfig.yaml,2024-04-05,not_released
 Azure Dedicated HSM,Microsoft.HardwareSecurityModules,hardwaresecuritymodules,Done,Done,,,,,,
 Microsoft Diagnostics RP,Microsoft.Help,help,Done,,,,,specification/help/resource-manager/Microsoft.Help/Help/tspconfig.yaml,2024-03-01-preview,2024-03-01-preview
 Kubernetes Connect Service,Microsoft.Kubernetes,hybridkubernetes,Done,,,,,specification/hybridkubernetes/HybridKubernetes.Management/tspconfig.yaml,2025-12-01-preview,2024-12-01-preview
@@ -41,7 +41,7 @@ Service Bus,microsoft.servicebus,servicebus,,Premium,,,,,,
 Azure SignalR Service,Microsoft.SignalRService,signalr,,,,,,specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService/tspconfig.yaml,2025-01-01-preview,2023-02-01
 SRP,microsoft.storage,storage,,Premium,,,,,,
 Azure Storage Mover,Microsoft.StorageMover,storagemover,,Done,,,,,,
-Xsync,microsoft.storagesync,storagesync,,,,,,specification/storagesync/resource-manager/Microsoft.StorageSync/StorageSync/tspconfig.yaml,2022-09-01,
+Xsync,microsoft.storagesync,storagesync,,,,,,specification/storagesync/resource-manager/Microsoft.StorageSync/StorageSync/tspconfig.yaml,2022-09-01,not_released
 Azure Support Case Mgmt,microsoft.support,support,,,,,,specification/support/resource-manager/Microsoft.Support/Support/tspconfig.yaml,2025-06-01-preview,2024-04-01
 Azure SignalR Service,Microsoft.SignalRService,webpubsub,,,,,,specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService/tspconfig.yaml,2025-08-01-preview,2024-03-01
 Compute Recommender,,compute/Recommender,,Done,,,,,,
@@ -79,7 +79,7 @@ Usage (Usage V3),Microsoft.Commerce,commerce,,,,,,specification/commerce/resourc
 Azure Kubernetes Service,microsoft.containerservice,containerservice,,Premium,,,,specification/containerservice/resource-manager/Microsoft.ContainerService/aks/tspconfig.yaml,2025-10-02-preview,
 Cluster Configuration,Microsoft.KubernetesConfiguration,kubernetesconfiguration,,,,,,specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions/tspconfig.yaml,2024-11-01,2023-05-01
 Azure Maps,Microsoft.Maps,maps,,,,,,specification/maps/resource-manager/Microsoft.Maps/Maps/tspconfig.yaml,2025-10-01-preview,2023-06-01
-CPX-Marketplace-PrivateMarketplace,Microsoft.Marketplace,marketplace,,,,,,specification/marketplace/resource-manager/Microsoft.Marketplace/Marketplace/tspconfig.yaml,2025-01-01,
+CPX-Marketplace-PrivateMarketplace,Microsoft.Marketplace,marketplace,,,,,,specification/marketplace/resource-manager/Microsoft.Marketplace/Marketplace/tspconfig.yaml,2025-01-01,not_released
 Network Cloud,Microsoft.NetworkCloud,networkcloud,,NO_SPEC,,,,,,
 Purview,Microsoft.Purview,purview,,,,,,specification/purview/resource-manager/Microsoft.Purview/Purview/tspconfig.yaml,2024-04-01-preview,2021-07-01
 Azure Site Recovery,Microsoft.RecoveryServices,recoveryservicessiterecovery,,,,,,specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/tspconfig.yaml,2025-08-01,2025-01-01
