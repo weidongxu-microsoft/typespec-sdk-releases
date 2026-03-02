@@ -64,3 +64,15 @@ The list of "input-file" would be in a form of `stable/2024-05-01/netapp.json`. 
 If api-version is not consistent, add "inconsistent" to the column.
 
 List the rows that cannot find the "SdkApiVersion".
+
+## Guide on task "Release SDK <sdk>"
+
+For the row specified:
+
+Run pipeline https://dev.azure.com/azure-sdk/internal/_build?definitionId=7421 via REST API
+- Set "Path to API specification file" as value in "tspconfig" column
+- Set "API version" in "SpecApiVersion" column
+- Set "SDK release type" as beta/stable, depends on whether "SpecApiVersion" contains "-preview"
+- Set "Create SDK pull request" to "true"
+
+Use the token from Azure CLI to call the REST API of the "dev.azure.com" endpoint (preferrable using `az rest` and let Azure CLI handle the token).
