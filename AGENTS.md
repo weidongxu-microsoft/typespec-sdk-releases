@@ -37,7 +37,7 @@ For each row (not in terminal state) in database, check folder of "tspconfig" co
 
 Find the last item in `Version` enum. Add it to the "SpecApiVersion" column.
 
-The `Version` enum can be find as the enum specified in `@versioned` decorator. This usually in "main.tsp" file.
+The `Version` enum can be found as the enum specified in `@versioned` decorator. This usually in "main.tsp" file.
 
 ```ts
 @versioned(Versions)
@@ -53,6 +53,8 @@ enum Versions {
 Add a "SdkApiVersion" column in database, if not exist.
 
 For each row (not in terminal state) in database, check folder "sdk/<SpecFolder>/azure-resourcemanager-##" in sdk repo.
+
+If you cannot find the folder of "sdk/<SpecFolder>", read the "tspconfig.yaml" in "tspconfig" column, check the `options/"@azure-tools/typespec-autorest"/emitter-output-dir` property. The folder in sdk repo can be inferred from it.
 
 The "README.md" file should contain word like `Package tag package-2024-05`. Note this "package-2024-05" as "<readme-tag>".
 
