@@ -52,7 +52,7 @@ CCM API - CostManagement,microsoft.costmanagement,cost-management,,,,,,specifica
 Azure Stack Edge Service,microsoft.databoxedge,databoxedge,,,,,,specification/databoxedge/resource-manager/Microsoft.DataBoxEdge/DataBoxEdge/tspconfig.yaml
 Service Bus,Microsoft.EventHub,eventhub,,Premium,,,,
 Azure NetApp Files,Microsoft.NetApp,netapp,,Done,,,,
-Network Cloud,Microsoft.NetworkCloud,networkcloud,,,,,,
+Network Cloud,Microsoft.NetworkCloud,networkcloud,,NO_SPEC,,,,
 Liftr-Newrelic,NewRelic.Observability,newrelic,,,,,,specification/newrelic/NewRelicObservability.Management/tspconfig.yaml
 Liftr-PAN,PaloAltoNetworks.Cloudngfw,paloaltonetworks,,Done,,,,
 Azure Database for PostgreSQL - Flexible Server,microsoft.dbforpostgresql,postgresql,,,,,,specification/postgresql/DBforPostgreSQL.Management/tspconfig.yaml
@@ -63,9 +63,9 @@ Microsoft Azure Attestation,Microsoft.Attestation,attestation,,,,,,specification
 Azure Batch,Microsoft.Batch,batch,,,,,,specification/batch/resource-manager/Microsoft.Batch/Batch/tspconfig.yaml
 Azure Container Registry,Microsoft.ContainerRegistry,containerregistry,,Done,,,,
 Azure Monitor Grafana,Microsoft.Dashboard,dashboard,,Done,,,,
-AIOps Orchestration,Microsoft.HybridNetwork,hybridnetwork,,,,,,
+AIOps Orchestration,Microsoft.HybridNetwork,hybridnetwork,,NO_SPEC,,,,
 Project Vienna Services,Microsoft.MachineLearningServices,machinelearningservices,,,,,,specification/machinelearningservices/MachineLearningServices.Management/tspconfig.yaml
-Groups RP,Microsoft.Management,management/Microsoft.Management/ManagementGroups,,,,,,
+Groups RP,Microsoft.Management,management/Microsoft.Management/ManagementGroups,,,,,,specification/management/resource-manager/Microsoft.Management/ManagementGroups/tspconfig.yaml
 Microsoft Azure Peering Service,Microsoft.Peering,peering,,,,,,specification/peering/resource-manager/Microsoft.Peering/Peering/tspconfig.yaml
 Resource Provider Service as a Service,Microsoft.ProviderHub,providerhub,,,,,,specification/providerhub/ProviderHub.Management/tspconfig.yaml
 Redis Enterprise,Microsoft.Cache,redisenterprise,,,,,,specification/redisenterprise/RedisEnterprise.Management/tspconfig.yaml
@@ -80,7 +80,7 @@ Azure Kubernetes Service,microsoft.containerservice,containerservice,,,,,,specif
 Cluster Configuration,Microsoft.KubernetesConfiguration,kubernetesconfiguration,,,,,,specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions/tspconfig.yaml
 Azure Maps,Microsoft.Maps,maps,,,,,,specification/maps/resource-manager/Microsoft.Maps/Maps/tspconfig.yaml
 CPX-Marketplace-PrivateMarketplace,Microsoft.Marketplace,marketplace,,,,,,specification/marketplace/resource-manager/Microsoft.Marketplace/Marketplace/tspconfig.yaml
-Network Cloud,Microsoft.NetworkCloud,networkcloud,,,,,,
+Network Cloud,Microsoft.NetworkCloud,networkcloud,,NO_SPEC,,,,
 Purview,Microsoft.Purview,purview,,,,,,specification/purview/resource-manager/Microsoft.Purview/Purview/tspconfig.yaml
 Azure Site Recovery,Microsoft.RecoveryServices,recoveryservicessiterecovery,,,,,,specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/tspconfig.yaml
 Azure Search,Microsoft.Search,search,,Premium,,,,
