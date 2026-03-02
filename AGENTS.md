@@ -28,3 +28,22 @@ For each row (not in terminal state) in database, check folder "specification/<S
 Add the relative path (from specs repo) to the "tspconfig" column.
 
 List the rows that cannot find the "tspconfig.yaml".
+
+## Guide on task "Update api-version on specs"
+
+Add a "SpecApiVersion" column in database, if not exist.
+
+For each row (not in terminal state) in database, check folder of "tspconfig" column in specs repo.
+
+Find the last item in `Version` enum. Add it to the "SpecApiVersion" column.
+
+The `Version` enum can be find as the enum specified in `@versioned` decorator. This usually in "main.tsp" file.
+
+```ts
+@versioned(Versions)
+namespace Microsoft.NetApp;
+
+enum Versions {
+  ...
+}
+```
