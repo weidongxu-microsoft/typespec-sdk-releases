@@ -1,89 +1,89 @@
-Service,ARM Namespace,Spec Folder,.Net,Java,Python,JS,GO,tspconfig,SpecApiVersion,SdkApiVersion
-Azure Storage Actions,Microsoft.StorageActions,storageactions,Done,Done,,,,,,
-Bing Search APIs,Microsoft.Bing,bing,,NO_SPEC,,,,,,
-Reservations RP,Microsoft.BillingBenefits,billingbenefits,,,,,,specification/billingbenefits/BillingBenefits.Management/tspconfig.yaml,2024-11-01-preview,2022-11-01
-Azure Device Provisioning Service,Microsoft.Devices,deviceprovisioningservices,Done,Done,,,,,,
-Azure DNS Public Zones,Microsoft.Network,dns,,Premium,,,,,,
-Azure Edge Hardware Center,Microsoft.EdgeOrder,edgeorder,Done,,,,,specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/tspconfig.yaml,2024-02-01,2021-12-01
-SRP,Microsoft.ElasticSan,elasticsan,Done,Done,,,,,,
-Azure Automanage,Microsoft.GuestConfiguration,guestconfiguration,,,,,,specification/guestconfiguration/resource-manager/Microsoft.GuestConfiguration/Assignments/tspconfig.yaml,2024-04-05,not_released
-Azure Dedicated HSM,Microsoft.HardwareSecurityModules,hardwaresecuritymodules,Done,Done,,,,,,
-Microsoft Diagnostics RP,Microsoft.Help,help,Done,,,,,specification/help/resource-manager/Microsoft.Help/Help/tspconfig.yaml,2024-03-01-preview,2024-03-01-preview
-Kubernetes Connect Service,Microsoft.Kubernetes,hybridkubernetes,Done,,,,,specification/hybridkubernetes/HybridKubernetes.Management/tspconfig.yaml,2025-12-01-preview,2024-12-01-preview
-Planned Maintenance,Microsoft.Maintenance,maintenance,,,,,,specification/maintenance/resource-manager/Microsoft.Maintenance/Maintenance/tspconfig.yaml,2023-10-01-preview,2023-10-01-preview
-Azure Notification Hubs,Microsoft.NotificationHubs,notificationhubs,,,,,,specification/notificationhubs/resource-manager/Microsoft.NotificationHubs/NotificationHubs/tspconfig.yaml,2023-10-01-preview,2017-04-01
-Azure DNS Private Zones,Microsoft.Network,privatedns,,Premium,,,,specification/privatedns/resource-manager/Microsoft.Network/PrivateDns/tspconfig.yaml,2024-06-01,
-Azure Site Recovery,Microsoft.RecoveryServices,recoveryservices,,Done,,,,,,
-SQL IaaS,Microsoft.SqlVirtualMachine,sqlvirtualmachine,Done,,,,,specification/sqlvirtualmachine/resource-manager/Microsoft.SqlVirtualMachine/SqlVirtualMachine/tspconfig.yaml,2023-10-01,2022-08-01-preview
-Liftr-Confluent,Microsoft.Confluent,confluent,,Done,,,,,,
-Azure Bot Service,Microsoft.BotService,botservice,,,,,,specification/botservice/resource-manager/Microsoft.BotService/BotService/tspconfig.yaml,2023-09-15-preview,2021-03-01
-Fabric Platform MWC,Microsoft.PowerBIdedicated,powerbidedicated,Done,,,,,specification/powerbidedicated/resource-manager/Microsoft.PowerBIdedicated/PowerBIDedicated/tspconfig.yaml,2021-01-01,2021-01-01
-Azure Advisor,Microsoft.Advisor,advisor,,,,,,specification/advisor/resource-manager/Microsoft.Advisor/Advisor/tspconfig.yaml,2025-05-01-preview,2020-01-01
-CDN Management Service,Microsoft.Cdn,cdn,,Done,,,,,,
-Azure Confidential Computing Ledger,Microsoft.ConfidentialLedger,confidentialledger,,,,,,specification/confidentialledger/Confidentialledger.Management/tspconfig.yaml,2025-06-10-preview,2024-09-19-preview
-DataBox Pod & Disk Service,microsoft.databox,databox,,,,,,specification/databox/resource-manager/Microsoft.DataBox/DataBox/tspconfig.yaml,2025-07-01,2025-02-01
-Liftr-Datadog,microsoft.datadog,datadog,,,,,,specification/datadog/Datadog.Management/tspconfig.yaml,2025-12-26-preview,2023-01-01
-Backup (MAB),Microsoft.DataProtection,dataprotection,,Done,,,,,,
-DevCenter,Microsoft.DevCenter,devcenter,,,,,,specification/devcenter/DevCenter.Management/tspconfig.yaml,2026-01-01-preview,2024-02-01
-Azure DNS Private Resolver,Microsoft.Network,dnsresolver,,Done,,,,,,
-Liftr-Elastic,Microsoft.Elastic,elastic,Done,,,,,specification/elastic/Elastic.Management/tspconfig.yaml,2025-06-01,2025-06-01
-Microsoft Health Agent - HealthBot,Microsoft.HealthBot,healthbot,Done,Done,,,,,,
-Azure Key Vault,Microsoft.KeyVault,keyvault,Done,Done,,,,,,
-Managed Service Identity,microsoft.managedidentity,msi,,Premium,,,,,,
-Azure Database for MySQL - Flexible Server,microsoft.dbformysql,mysql,,,,,,specification/mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/tspconfig.yaml,2025-06-01-preview,inconsistent
-Liftr-Nginx,nginx.nginxplus,nginx,,Done,,,,,,
-Azure Cosmos DB for PostgreSQL,microsoft.dbforpostgresql,postgresqlhsc,,,,,,specification/postgresqlhsc/resource-manager/Microsoft.DBforPostgreSQL/PostgresqlHsc/tspconfig.yaml,2023-03-02-preview,2023-03-02-preview
-QuotaManagement,Microsoft.Quota,quota,,Done,,,,,,
-Backup (MAB),microsoft.recoveryservices,recoveryservicesbackup,,Done,,,,,,
-Redis Cache,microsoft.cache,redis,,Premium,,,,,,
-Service Bus,microsoft.relay,relay,,,,,,specification/relay/resource-manager/Microsoft.Relay/Relay/tspconfig.yaml,2024-01-01,2017-04-01
-Service Bus,microsoft.servicebus,servicebus,,Premium,,,,,,
-Azure SignalR Service,Microsoft.SignalRService,signalr,,,,,,specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService/tspconfig.yaml,2025-01-01-preview,2023-02-01
-SRP,microsoft.storage,storage,,Premium,,,,,,
-Azure Storage Mover,Microsoft.StorageMover,storagemover,,Done,,,,,,
-Xsync,microsoft.storagesync,storagesync,,,,,,specification/storagesync/resource-manager/Microsoft.StorageSync/StorageSync/tspconfig.yaml,2022-09-01,not_released
-Azure Support Case Mgmt,microsoft.support,support,,,,,,specification/support/resource-manager/Microsoft.Support/Support/tspconfig.yaml,2025-06-01-preview,2024-04-01
-Azure SignalR Service,Microsoft.SignalRService,webpubsub,,,,,,specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService/tspconfig.yaml,2025-08-01-preview,2024-03-01
-Compute Recommender,,compute/Recommender,,Done,,,,,,
-Liftr-Dynatrace,dynatrace.observability,dynatrace,,,,,,specification/dynatrace/Dynatrace.Management/tspconfig.yaml,2024-04-24,2023-04-27
-Azure App Configuration,Microsoft.AppConfiguration,appconfiguration,,Done,,,,,,
-CCM API - Consupmtion,microsoft.consumption,consumption,,,,,,specification/consumption/resource-manager/Microsoft.Consumption/Consumption/tspconfig.yaml,2024-08-01,2021-10-01
-CCM API - CostManagement,microsoft.costmanagement,cost-management,,,,,,specification/cost-management/resource-manager/Microsoft.CostManagement/CostManagement/tspconfig.yaml,2025-03-01,2022-10-01
-Azure Stack Edge Service,microsoft.databoxedge,databoxedge,,,,,,specification/databoxedge/resource-manager/Microsoft.DataBoxEdge/DataBoxEdge/tspconfig.yaml,2023-12-01,2019-08-01
-Service Bus,Microsoft.EventHub,eventhub,,Premium,,,,,,
-Azure NetApp Files,Microsoft.NetApp,netapp,,Done,,,,,,
-Network Cloud,Microsoft.NetworkCloud,networkcloud,,NO_SPEC,,,,,,
-Liftr-Newrelic,NewRelic.Observability,newrelic,,,,,,specification/newrelic/NewRelicObservability.Management/tspconfig.yaml,2025-05-01-preview,2025-05-01-preview
-Liftr-PAN,PaloAltoNetworks.Cloudngfw,paloaltonetworks,,Done,,,,,,
-Azure Database for PostgreSQL - Flexible Server,microsoft.dbforpostgresql,postgresql,,,,,,specification/postgresql/DBforPostgreSQL.Management/tspconfig.yaml,2026-01-01-preview,inconsistent
-Arc Appliance,Microsoft.ResourceConnector,resourceconnector,,Done,,,,,,
-WATM (offering: Traffic Manager),Microsoft.Network,trafficmanager,,Premium,,,,,,
-API Management,microsoft.apimanagement,apimanagement,,,,,,specification/apimanagement/resource-manager/Microsoft.ApiManagement/ApiManagement/tspconfig.yaml,2025-03-01-preview,2024-05-01
-Microsoft Azure Attestation,Microsoft.Attestation,attestation,,,,,,specification/attestation/resource-manager/Microsoft.Attestation/Attestation/tspconfig.yaml,2021-06-01,2020-10-01
-Azure Batch,Microsoft.Batch,batch,,,,,,specification/batch/resource-manager/Microsoft.Batch/Batch/tspconfig.yaml,2025-06-01,2024-07-01
-Azure Container Registry,Microsoft.ContainerRegistry,containerregistry,,Done,,,,,,
-Azure Monitor Grafana,Microsoft.Dashboard,dashboard,,Done,,,,,,
-AIOps Orchestration,Microsoft.HybridNetwork,hybridnetwork,,NO_SPEC,,,,,,
-Project Vienna Services,Microsoft.MachineLearningServices,machinelearningservices,,,,,,specification/machinelearningservices/MachineLearningServices.Management/tspconfig.yaml,2025-12-01,2024-04-01
-Groups RP,Microsoft.Management,management/Microsoft.Management/ManagementGroups,,,,,,specification/management/resource-manager/Microsoft.Management/ManagementGroups/tspconfig.yaml,2023-04-01,2021-04-01
-Microsoft Azure Peering Service,Microsoft.Peering,peering,,,,,,specification/peering/resource-manager/Microsoft.Peering/Peering/tspconfig.yaml,2025-05-01,2021-01-01
-Resource Provider Service as a Service,Microsoft.ProviderHub,providerhub,,,,,,specification/providerhub/ProviderHub.Management/tspconfig.yaml,2024-09-01,2024-09-01
-Redis Enterprise,Microsoft.Cache,redisenterprise,,,,,,specification/redisenterprise/RedisEnterprise.Management/tspconfig.yaml,2025-08-01-preview,2025-07-01
-Azure Policy,Microsoft.Authorization,resources/Microsoft.Authorization/policy,,Done,,,,,,
-App Service (Web Apps),microsoft.web,web,,Done,,,,,,
-App Service (Web Apps),microsoft.web,web/certificationregistration,,Done,,,,,,
-App Service (Web Apps),microsoft.web,web/domainregistration,,Done,,,,,,
-Azure Alerts Management,Microsoft.AlertsManagement,alertsmanagement,,,,,,specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/tspconfig.yaml,2021-08-08,2021-08-08
-Azure Stack HCI,Microsoft.AzureStackHCI,azurestackhci,,Done,,,,,,
-Usage (Usage V3),Microsoft.Commerce,commerce,,,,,,specification/commerce/resource-manager/Microsoft.Commerce/Commerce/tspconfig.yaml,2015-06-01-preview,2015-06-01-preview
-Azure Kubernetes Service,microsoft.containerservice,containerservice,,Premium,,,,specification/containerservice/resource-manager/Microsoft.ContainerService/aks/tspconfig.yaml,2025-10-02-preview,
-Cluster Configuration,Microsoft.KubernetesConfiguration,kubernetesconfiguration,,,,,,specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions/tspconfig.yaml,2024-11-01,2023-05-01
-Azure Maps,Microsoft.Maps,maps,,,,,,specification/maps/resource-manager/Microsoft.Maps/Maps/tspconfig.yaml,2025-10-01-preview,2023-06-01
-CPX-Marketplace-PrivateMarketplace,Microsoft.Marketplace,marketplace,,,,,,specification/marketplace/resource-manager/Microsoft.Marketplace/Marketplace/tspconfig.yaml,2025-01-01,not_released
-Network Cloud,Microsoft.NetworkCloud,networkcloud,,NO_SPEC,,,,,,
-Purview,Microsoft.Purview,purview,,,,,,specification/purview/resource-manager/Microsoft.Purview/Purview/tspconfig.yaml,2024-04-01-preview,2021-07-01
-Azure Site Recovery,Microsoft.RecoveryServices,recoveryservicessiterecovery,,,,,,specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/tspconfig.yaml,2025-08-01,2025-01-01
-Azure Search,Microsoft.Search,search,,Premium,,,,,,
-Azure Frontdoor,Microsoft.Network,frontdoor,,,,,,specification/frontdoor/FrontDoor.Management/tspconfig.yaml,2025-10-01,inconsistent
-NFV Resource Provider,Microsoft.NetworkFunction,networkfunction,,,,,,specification/networkfunction/NetworkFunction.Management/tspconfig.yaml,2022-11-01,2022-11-01
-Sevice Fabric,Microsoft.ServiceFabric,servicefabric,,,,,,specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/tspconfig.yaml,2026-03-01-preview,2021-06-01
+Service,ARM Namespace,Spec Folder,.Net,Java,Python,JS,GO,tspconfig,SpecApiVersion,SdkFolder,SdkApiVersion
+Azure Storage Actions,Microsoft.StorageActions,storageactions,Done,Done,,,,,,,
+Bing Search APIs,Microsoft.Bing,bing,,NO_SPEC,,,,,,,
+Reservations RP,Microsoft.BillingBenefits,billingbenefits,,,,,,specification/billingbenefits/BillingBenefits.Management/tspconfig.yaml,2024-11-01-preview,sdk/billingbenefits/azure-resourcemanager-billingbenefits,2022-11-01
+Azure Device Provisioning Service,Microsoft.Devices,deviceprovisioningservices,Done,Done,,,,,,,
+Azure DNS Public Zones,Microsoft.Network,dns,,Premium,,,,,,,
+Azure Edge Hardware Center,Microsoft.EdgeOrder,edgeorder,Done,,,,,specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/tspconfig.yaml,2024-02-01,sdk/edgeorder/azure-resourcemanager-edgeorder,2021-12-01
+SRP,Microsoft.ElasticSan,elasticsan,Done,Done,,,,,,,
+Azure Automanage,Microsoft.GuestConfiguration,guestconfiguration,,,,,,specification/guestconfiguration/resource-manager/Microsoft.GuestConfiguration/Assignments/tspconfig.yaml,2024-04-05,,not_released
+Azure Dedicated HSM,Microsoft.HardwareSecurityModules,hardwaresecuritymodules,Done,Done,,,,,,,
+Microsoft Diagnostics RP,Microsoft.Help,help,Done,,,,,specification/help/resource-manager/Microsoft.Help/Help/tspconfig.yaml,2024-03-01-preview,sdk/selfhelp/azure-resourcemanager-selfhelp,2024-03-01-preview
+Kubernetes Connect Service,Microsoft.Kubernetes,hybridkubernetes,Done,,,,,specification/hybridkubernetes/HybridKubernetes.Management/tspconfig.yaml,2025-12-01-preview,sdk/hybridkubernetes/azure-resourcemanager-hybridkubernetes,2024-12-01-preview
+Planned Maintenance,Microsoft.Maintenance,maintenance,,,,,,specification/maintenance/resource-manager/Microsoft.Maintenance/Maintenance/tspconfig.yaml,2023-10-01-preview,sdk/maintenance/azure-resourcemanager-maintenance,2023-10-01-preview
+Azure Notification Hubs,Microsoft.NotificationHubs,notificationhubs,,,,,,specification/notificationhubs/resource-manager/Microsoft.NotificationHubs/NotificationHubs/tspconfig.yaml,2023-10-01-preview,sdk/notificationhubs/azure-resourcemanager-notificationhubs,2017-04-01
+Azure DNS Private Zones,Microsoft.Network,privatedns,,Premium,,,,specification/privatedns/resource-manager/Microsoft.Network/PrivateDns/tspconfig.yaml,2024-06-01,,
+Azure Site Recovery,Microsoft.RecoveryServices,recoveryservices,,Done,,,,,,,
+SQL IaaS,Microsoft.SqlVirtualMachine,sqlvirtualmachine,Done,,,,,specification/sqlvirtualmachine/resource-manager/Microsoft.SqlVirtualMachine/SqlVirtualMachine/tspconfig.yaml,2023-10-01,sdk/sqlvirtualmachine/azure-resourcemanager-sqlvirtualmachine,2022-08-01-preview
+Liftr-Confluent,Microsoft.Confluent,confluent,,Done,,,,,,,
+Azure Bot Service,Microsoft.BotService,botservice,,,,,,specification/botservice/resource-manager/Microsoft.BotService/BotService/tspconfig.yaml,2023-09-15-preview,sdk/botservice/azure-resourcemanager-botservice,2021-03-01
+Fabric Platform MWC,Microsoft.PowerBIdedicated,powerbidedicated,Done,,,,,specification/powerbidedicated/resource-manager/Microsoft.PowerBIdedicated/PowerBIDedicated/tspconfig.yaml,2021-01-01,sdk/powerbidedicated/azure-resourcemanager-powerbidedicated,2021-01-01
+Azure Advisor,Microsoft.Advisor,advisor,,,,,,specification/advisor/resource-manager/Microsoft.Advisor/Advisor/tspconfig.yaml,2025-05-01-preview,sdk/advisor/azure-resourcemanager-advisor,2020-01-01
+CDN Management Service,Microsoft.Cdn,cdn,,Done,,,,,,,
+Azure Confidential Computing Ledger,Microsoft.ConfidentialLedger,confidentialledger,,,,,,specification/confidentialledger/Confidentialledger.Management/tspconfig.yaml,2025-06-10-preview,sdk/confidentialledger/azure-resourcemanager-confidentialledger,2024-09-19-preview
+DataBox Pod & Disk Service,microsoft.databox,databox,,,,,,specification/databox/resource-manager/Microsoft.DataBox/DataBox/tspconfig.yaml,2025-07-01,sdk/databox/azure-resourcemanager-databox,2025-02-01
+Liftr-Datadog,microsoft.datadog,datadog,,,,,,specification/datadog/Datadog.Management/tspconfig.yaml,2025-12-26-preview,sdk/datadog/azure-resourcemanager-datadog,2023-01-01
+Backup (MAB),Microsoft.DataProtection,dataprotection,,Done,,,,,,,
+DevCenter,Microsoft.DevCenter,devcenter,,,,,,specification/devcenter/DevCenter.Management/tspconfig.yaml,2026-01-01-preview,sdk/devcenter/azure-resourcemanager-devcenter,2024-02-01
+Azure DNS Private Resolver,Microsoft.Network,dnsresolver,,Done,,,,,,,
+Liftr-Elastic,Microsoft.Elastic,elastic,Done,,,,,specification/elastic/Elastic.Management/tspconfig.yaml,2025-06-01,sdk/elastic/azure-resourcemanager-elastic,2025-06-01
+Microsoft Health Agent - HealthBot,Microsoft.HealthBot,healthbot,Done,Done,,,,,,,
+Azure Key Vault,Microsoft.KeyVault,keyvault,Done,Done,,,,,,,
+Managed Service Identity,microsoft.managedidentity,msi,,Premium,,,,,,,
+Azure Database for MySQL - Flexible Server,microsoft.dbformysql,mysql,,,,,,specification/mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/tspconfig.yaml,2025-06-01-preview,sdk/mysql/azure-resourcemanager-mysql,inconsistent
+Liftr-Nginx,nginx.nginxplus,nginx,,Done,,,,,,,
+Azure Cosmos DB for PostgreSQL,microsoft.dbforpostgresql,postgresqlhsc,,,,,,specification/postgresqlhsc/resource-manager/Microsoft.DBforPostgreSQL/PostgresqlHsc/tspconfig.yaml,2023-03-02-preview,sdk/cosmosdbforpostgresql/azure-resourcemanager-cosmosdbforpostgresql,2023-03-02-preview
+QuotaManagement,Microsoft.Quota,quota,,Done,,,,,,,
+Backup (MAB),microsoft.recoveryservices,recoveryservicesbackup,,Done,,,,,,,
+Redis Cache,microsoft.cache,redis,,Premium,,,,,,,
+Service Bus,microsoft.relay,relay,,,,,,specification/relay/resource-manager/Microsoft.Relay/Relay/tspconfig.yaml,2024-01-01,sdk/relay/azure-resourcemanager-relay,2017-04-01
+Service Bus,microsoft.servicebus,servicebus,,Premium,,,,,,,
+Azure SignalR Service,Microsoft.SignalRService,signalr,,,,,,specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService/tspconfig.yaml,2025-01-01-preview,sdk/signalr/azure-resourcemanager-signalr,2023-02-01
+SRP,microsoft.storage,storage,,Premium,,,,,,,
+Azure Storage Mover,Microsoft.StorageMover,storagemover,,Done,,,,,,,
+Xsync,microsoft.storagesync,storagesync,,,,,,specification/storagesync/resource-manager/Microsoft.StorageSync/StorageSync/tspconfig.yaml,2022-09-01,,not_released
+Azure Support Case Mgmt,microsoft.support,support,,,,,,specification/support/resource-manager/Microsoft.Support/Support/tspconfig.yaml,2025-06-01-preview,sdk/support/azure-resourcemanager-support,2024-04-01
+Azure SignalR Service,Microsoft.SignalRService,webpubsub,,,,,,specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService/tspconfig.yaml,2025-08-01-preview,sdk/webpubsub/azure-resourcemanager-webpubsub,2024-03-01
+Compute Recommender,,compute/Recommender,,Done,,,,,,,
+Liftr-Dynatrace,dynatrace.observability,dynatrace,,,,,,specification/dynatrace/Dynatrace.Management/tspconfig.yaml,2024-04-24,sdk/dynatrace/azure-resourcemanager-dynatrace,2023-04-27
+Azure App Configuration,Microsoft.AppConfiguration,appconfiguration,,Done,,,,,,,
+CCM API - Consupmtion,microsoft.consumption,consumption,,,,,,specification/consumption/resource-manager/Microsoft.Consumption/Consumption/tspconfig.yaml,2024-08-01,sdk/consumption/azure-resourcemanager-consumption,2021-10-01
+CCM API - CostManagement,microsoft.costmanagement,cost-management,,,,,,specification/cost-management/resource-manager/Microsoft.CostManagement/CostManagement/tspconfig.yaml,2025-03-01,sdk/costmanagement/azure-resourcemanager-costmanagement,2022-10-01
+Azure Stack Edge Service,microsoft.databoxedge,databoxedge,,,,,,specification/databoxedge/resource-manager/Microsoft.DataBoxEdge/DataBoxEdge/tspconfig.yaml,2023-12-01,sdk/databoxedge/azure-resourcemanager-databoxedge,2019-08-01
+Service Bus,Microsoft.EventHub,eventhub,,Premium,,,,,,,
+Azure NetApp Files,Microsoft.NetApp,netapp,,Done,,,,,,,
+Network Cloud,Microsoft.NetworkCloud,networkcloud,,NO_SPEC,,,,,,,
+Liftr-Newrelic,NewRelic.Observability,newrelic,,,,,,specification/newrelic/NewRelicObservability.Management/tspconfig.yaml,2025-05-01-preview,sdk/newrelicobservability/azure-resourcemanager-newrelicobservability,2025-05-01-preview
+Liftr-PAN,PaloAltoNetworks.Cloudngfw,paloaltonetworks,,Done,,,,,,,
+Azure Database for PostgreSQL - Flexible Server,microsoft.dbforpostgresql,postgresql,,,,,,specification/postgresql/DBforPostgreSQL.Management/tspconfig.yaml,2026-01-01-preview,sdk/postgresql/azure-resourcemanager-postgresql,inconsistent
+Arc Appliance,Microsoft.ResourceConnector,resourceconnector,,Done,,,,,,,
+WATM (offering: Traffic Manager),Microsoft.Network,trafficmanager,,Premium,,,,,,,
+API Management,microsoft.apimanagement,apimanagement,,,,,,specification/apimanagement/resource-manager/Microsoft.ApiManagement/ApiManagement/tspconfig.yaml,2025-03-01-preview,sdk/apimanagement/azure-resourcemanager-apimanagement,2024-05-01
+Microsoft Azure Attestation,Microsoft.Attestation,attestation,,,,,,specification/attestation/resource-manager/Microsoft.Attestation/Attestation/tspconfig.yaml,2021-06-01,sdk/attestation/azure-resourcemanager-attestation,2020-10-01
+Azure Batch,Microsoft.Batch,batch,,,,,,specification/batch/resource-manager/Microsoft.Batch/Batch/tspconfig.yaml,2025-06-01,sdk/batch/azure-resourcemanager-batch,2024-07-01
+Azure Container Registry,Microsoft.ContainerRegistry,containerregistry,,Done,,,,,,,
+Azure Monitor Grafana,Microsoft.Dashboard,dashboard,,Done,,,,,,,
+AIOps Orchestration,Microsoft.HybridNetwork,hybridnetwork,,NO_SPEC,,,,,,,
+Project Vienna Services,Microsoft.MachineLearningServices,machinelearningservices,,,,,,specification/machinelearningservices/MachineLearningServices.Management/tspconfig.yaml,2025-12-01,sdk/machinelearning/azure-resourcemanager-machinelearning,2024-04-01
+Groups RP,Microsoft.Management,management/Microsoft.Management/ManagementGroups,,,,,,specification/management/resource-manager/Microsoft.Management/ManagementGroups/tspconfig.yaml,2023-04-01,sdk/managementgroups/azure-resourcemanager-managementgroups,2021-04-01
+Microsoft Azure Peering Service,Microsoft.Peering,peering,,,,,,specification/peering/resource-manager/Microsoft.Peering/Peering/tspconfig.yaml,2025-05-01,sdk/peering/azure-resourcemanager-peering,2021-01-01
+Resource Provider Service as a Service,Microsoft.ProviderHub,providerhub,,,,,,specification/providerhub/ProviderHub.Management/tspconfig.yaml,2024-09-01,sdk/providerhub/azure-resourcemanager-providerhub,2024-09-01
+Redis Enterprise,Microsoft.Cache,redisenterprise,,,,,,specification/redisenterprise/RedisEnterprise.Management/tspconfig.yaml,2025-08-01-preview,sdk/redisenterprise/azure-resourcemanager-redisenterprise,2025-07-01
+Azure Policy,Microsoft.Authorization,resources/Microsoft.Authorization/policy,,Done,,,,,,,
+App Service (Web Apps),microsoft.web,web,,Done,,,,,,,
+App Service (Web Apps),microsoft.web,web/certificationregistration,,Done,,,,,,,
+App Service (Web Apps),microsoft.web,web/domainregistration,,Done,,,,,,,
+Azure Alerts Management,Microsoft.AlertsManagement,alertsmanagement,,,,,,specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/tspconfig.yaml,2021-08-08,sdk/alertsmanagement/azure-resourcemanager-alertsmanagement,2021-08-08
+Azure Stack HCI,Microsoft.AzureStackHCI,azurestackhci,,Done,,,,,,,
+Usage (Usage V3),Microsoft.Commerce,commerce,,,,,,specification/commerce/resource-manager/Microsoft.Commerce/Commerce/tspconfig.yaml,2015-06-01-preview,sdk/commerce/azure-resourcemanager-commerce,2015-06-01-preview
+Azure Kubernetes Service,microsoft.containerservice,containerservice,,Premium,,,,specification/containerservice/resource-manager/Microsoft.ContainerService/aks/tspconfig.yaml,2025-10-02-preview,,
+Cluster Configuration,Microsoft.KubernetesConfiguration,kubernetesconfiguration,,,,,,specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions/tspconfig.yaml,2024-11-01,sdk/kubernetesconfiguration/azure-resourcemanager-kubernetesconfiguration,2023-05-01
+Azure Maps,Microsoft.Maps,maps,,,,,,specification/maps/resource-manager/Microsoft.Maps/Maps/tspconfig.yaml,2025-10-01-preview,sdk/maps/azure-resourcemanager-maps,2023-06-01
+CPX-Marketplace-PrivateMarketplace,Microsoft.Marketplace,marketplace,,,,,,specification/marketplace/resource-manager/Microsoft.Marketplace/Marketplace/tspconfig.yaml,2025-01-01,,not_released
+Network Cloud,Microsoft.NetworkCloud,networkcloud,,NO_SPEC,,,,,,,
+Purview,Microsoft.Purview,purview,,,,,,specification/purview/resource-manager/Microsoft.Purview/Purview/tspconfig.yaml,2024-04-01-preview,sdk/purview/azure-resourcemanager-purview,2021-07-01
+Azure Site Recovery,Microsoft.RecoveryServices,recoveryservicessiterecovery,,,,,,specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/tspconfig.yaml,2025-08-01,sdk/recoveryservicessiterecovery/azure-resourcemanager-recoveryservicessiterecovery,2025-01-01
+Azure Search,Microsoft.Search,search,,Premium,,,,,,,
+Azure Frontdoor,Microsoft.Network,frontdoor,,,,,,specification/frontdoor/FrontDoor.Management/tspconfig.yaml,2025-10-01,sdk/frontdoor/azure-resourcemanager-frontdoor,inconsistent
+NFV Resource Provider,Microsoft.NetworkFunction,networkfunction,,,,,,specification/networkfunction/NetworkFunction.Management/tspconfig.yaml,2022-11-01,sdk/networkfunction/azure-resourcemanager-networkfunction,2022-11-01
+Sevice Fabric,Microsoft.ServiceFabric,servicefabric,,,,,,specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/tspconfig.yaml,2026-03-01-preview,sdk/servicefabric/azure-resourcemanager-servicefabric,2021-06-01
