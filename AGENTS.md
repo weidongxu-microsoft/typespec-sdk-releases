@@ -15,6 +15,15 @@ The database is the "releases.csv" file.
 
 "AlreadyTypeSpec", "Done", "Premium", "NO_SPEC" in "Java" column is a terminal state. Skip process on these rows.
 
+- AlreadyTypeSpec
+  Java SDK is already generated and released from TypeSpec. We don't need to release again.
+- Done
+  We've validate the SDK PR from TypeSpec ("SdkPr" column). If both api-version is same, we've also released the SDK.
+- Premium
+  This is hand-written lib, we have a different agent to process them.
+- NO_SPEC
+  No TypeSpec source found. Nothing we can do.
+
 <!-- ## Guide on task "Update SDK state"
 
 For each row (not in terminal state) in database, check folder "sdk/<SpecFolder>/azure-resourcemanager-##" in sdk repo. If there is a "tsp-location.yaml" in the folder, update the "Java" column to "AlreadyTypeSpec". -->
