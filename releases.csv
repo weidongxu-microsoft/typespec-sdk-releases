@@ -26,7 +26,7 @@ Liftr-Datadog,microsoft.datadog,datadog,,,,,,specification/datadog/Datadog.Manag
 Backup (MAB),Microsoft.DataProtection,dataprotection,,Done,,,,,,,,
 DevCenter,Microsoft.DevCenter,devcenter,,,,,,specification/devcenter/DevCenter.Management/tspconfig.yaml,2026-01-01-preview,sdk/devcenter/azure-resourcemanager-devcenter,2024-02-01,
 Azure DNS Private Resolver,Microsoft.Network,dnsresolver,,Done,,,,,,,,
-Liftr-Elastic,Microsoft.Elastic,elastic,Done,,,,,specification/elastic/Elastic.Management/tspconfig.yaml,2025-06-01,sdk/elastic/azure-resourcemanager-elastic,2025-06-01,https://github.com/Azure/azure-sdk-for-java/pull/48197
+Liftr-Elastic,Microsoft.Elastic,elastic,Done,,,,,specification/elastic/Elastic.Management/tspconfig.yaml,2025-06-01,sdk/elastic/azure-resourcemanager-elastic,2025-06-01,
 Microsoft Health Agent - HealthBot,Microsoft.HealthBot,healthbot,Done,Done,,,,,,,,
 Azure Key Vault,Microsoft.KeyVault,keyvault,Done,Done,,,,,,,,
 Managed Service Identity,microsoft.managedidentity,msi,,Premium,,,,,,,,
