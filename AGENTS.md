@@ -13,7 +13,7 @@ The database is the "releases.csv" file.
 
 ## Terminal state
 
-"Done", "Premium", "NO_SPEC" in "Java" column is a terminal state. Skip process on these rows.
+"AlreadyTypeSpec", "Done", "Premium", "NO_SPEC" in "Java" column is a terminal state. Skip process on these rows.
 
 ## Guide on task "Update SDK state"
 
