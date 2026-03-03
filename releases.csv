@@ -53,7 +53,7 @@ Azure Stack Edge Service,microsoft.databoxedge,databoxedge,,,,,,specification/da
 Service Bus,Microsoft.EventHub,eventhub,,Premium,,,,,,,,
 Azure NetApp Files,Microsoft.NetApp,netapp,,AlreadyTypeSpec,,,,,,,,
 Network Cloud,Microsoft.NetworkCloud,networkcloud,,NO_SPEC,,,,,,,,
-Liftr-Newrelic,NewRelic.Observability,newrelic,,,,,,specification/newrelic/NewRelicObservability.Management/tspconfig.yaml,2025-05-01-preview,sdk/newrelicobservability/azure-resourcemanager-newrelicobservability,2025-05-01-preview,https://github.com/Azure/azure-sdk-for-java/pull/48200
+Liftr-Newrelic,NewRelic.Observability,newrelic,,Done,,,,specification/newrelic/NewRelicObservability.Management/tspconfig.yaml,2025-05-01-preview,sdk/newrelicobservability/azure-resourcemanager-newrelicobservability,2025-05-01-preview,https://github.com/Azure/azure-sdk-for-java/pull/48200
 Liftr-PAN,PaloAltoNetworks.Cloudngfw,paloaltonetworks,,AlreadyTypeSpec,,,,,,,,
 Azure Database for PostgreSQL - Flexible Server,microsoft.dbforpostgresql,postgresql,,,,,,specification/postgresql/DBforPostgreSQL.Management/tspconfig.yaml,2026-01-01-preview,sdk/postgresql/azure-resourcemanager-postgresql,inconsistent,
 Arc Appliance,Microsoft.ResourceConnector,resourceconnector,,AlreadyTypeSpec,,,,,,,,
