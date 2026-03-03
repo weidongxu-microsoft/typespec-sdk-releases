@@ -65,14 +65,24 @@ If api-version is not consistent, add "inconsistent" to the column.
 
 List the rows that cannot find the "SdkApiVersion".
 
+## Guide on task "Generate SDK <sdk>"
+
+For the row specified:
+
+1. Run pipeline https://dev.azure.com/azure-sdk/internal/_build?definitionId=7421 via REST API
+   - Set "Path to API specification file" as value in "tspconfig" column
+   - Set "API version" in "SpecApiVersion" column
+   - Set "SDK release type" as beta/stable, depends on whether "SpecApiVersion" contains "-preview"
+   - Set "Create SDK pull request" to "true"
+   Use the token from Azure CLI to call the REST API of the "dev.azure.com" endpoint (preferrable using `az rest` and let Azure CLI handle the token).
+2. Wait for the pipeline run to complete.
+3. Check recent PR on https://github.com/Azure/azure-sdk-for-java/pulls, find "[AutoPR <sdk-package>]*", approve the PR, and open it in browser
+
 ## Guide on task "Release SDK <sdk>"
 
 For the row specified:
 
-Run pipeline https://dev.azure.com/azure-sdk/internal/_build?definitionId=7421 via REST API
-- Set "Path to API specification file" as value in "tspconfig" column
-- Set "API version" in "SpecApiVersion" column
-- Set "SDK release type" as beta/stable, depends on whether "SpecApiVersion" contains "-preview"
-- Set "Create SDK pull request" to "true"
-
-Use the token from Azure CLI to call the REST API of the "dev.azure.com" endpoint (preferrable using `az rest` and let Azure CLI handle the token).
+1. Find pipeline of "java - <service>" pipeline from https://dev.azure.com/azure-sdk/internal/_build ("<service> is extracted from "SdkFolder" column -- `sdk/<service>/<sdk-package>`)
+2. Run the pipeline
+   - On "Parameters", set the parameter of "<sdk-package>" to "true", all other parameters to "false"
+3. Open the pipeline run in browser
