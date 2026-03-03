@@ -15,9 +15,9 @@ The database is the "releases.csv" file.
 
 "AlreadyTypeSpec", "Done", "Premium", "NO_SPEC" in "Java" column is a terminal state. Skip process on these rows.
 
-## Guide on task "Update SDK state"
+<!-- ## Guide on task "Update SDK state"
 
-For each row (not in terminal state) in database, check folder "sdk/<SpecFolder>/azure-resourcemanager-##" in sdk repo. If there is a "tsp-location.yaml" in the folder, update the "Java" column to "Done".
+For each row (not in terminal state) in database, check folder "sdk/<SpecFolder>/azure-resourcemanager-##" in sdk repo. If there is a "tsp-location.yaml" in the folder, update the "Java" column to "AlreadyTypeSpec". -->
 
 ## Guide on task "Update tspconfig column"
 
