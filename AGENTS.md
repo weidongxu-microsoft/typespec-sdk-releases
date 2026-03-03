@@ -77,6 +77,8 @@ For the row specified:
    Use the token from Azure CLI to call the REST API of the "dev.azure.com" endpoint (preferrable using `az rest` and let Azure CLI handle the token).
 2. Wait for the pipeline run to complete.
 3. Check recent PR on https://github.com/Azure/azure-sdk-for-java/pulls, find "[AutoPR <sdk-package>]*", approve the PR, and open it in browser
+4. Add the link of PR to "SdkPr" column
+5. Set "Java" status as "Done"
 
 ## Guide on task "Release SDK <sdk>"
 
