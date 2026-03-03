@@ -26,7 +26,7 @@ Liftr-Datadog,microsoft.datadog,datadog,,,,,,specification/datadog/Datadog.Manag
 Backup (MAB),Microsoft.DataProtection,dataprotection,,AlreadyTypeSpec,,,,,,,,
 DevCenter,Microsoft.DevCenter,devcenter,,,,,,specification/devcenter/DevCenter.Management/tspconfig.yaml,2026-01-01-preview,sdk/devcenter/azure-resourcemanager-devcenter,2024-02-01,
 Azure DNS Private Resolver,Microsoft.Network,dnsresolver,,AlreadyTypeSpec,,,,,,,,
-Liftr-Elastic,Microsoft.Elastic,elastic,Done,,,,,specification/elastic/Elastic.Management/tspconfig.yaml,2025-06-01,sdk/elastic/azure-resourcemanager-elastic,2025-06-01,
+Liftr-Elastic,Microsoft.Elastic,elastic,Done,Done,,,,specification/elastic/Elastic.Management/tspconfig.yaml,2025-06-01,sdk/elastic/azure-resourcemanager-elastic,2025-06-01,https://github.com/Azure/azure-sdk-for-java/pull/48206
 Microsoft Health Agent - HealthBot,Microsoft.HealthBot,healthbot,Done,AlreadyTypeSpec,,,,,,,,
 Azure Key Vault,Microsoft.KeyVault,keyvault,Done,AlreadyTypeSpec,,,,,,,,
 Managed Service Identity,microsoft.managedidentity,msi,,Premium,,,,,,,,
@@ -67,7 +67,7 @@ AIOps Orchestration,Microsoft.HybridNetwork,hybridnetwork,,NO_SPEC,,,,,,,,
 Project Vienna Services,Microsoft.MachineLearningServices,machinelearningservices,,,,,,specification/machinelearningservices/MachineLearningServices.Management/tspconfig.yaml,2025-12-01,sdk/machinelearning/azure-resourcemanager-machinelearning,2024-04-01,
 Groups RP,Microsoft.Management,management/Microsoft.Management/ManagementGroups,,,,,,specification/management/resource-manager/Microsoft.Management/ManagementGroups/tspconfig.yaml,2023-04-01,sdk/managementgroups/azure-resourcemanager-managementgroups,2021-04-01,
 Microsoft Azure Peering Service,Microsoft.Peering,peering,,,,,,specification/peering/resource-manager/Microsoft.Peering/Peering/tspconfig.yaml,2025-05-01,sdk/peering/azure-resourcemanager-peering,2021-01-01,
-Resource Provider Service as a Service,Microsoft.ProviderHub,providerhub,,,,,,specification/providerhub/ProviderHub.Management/tspconfig.yaml,2024-09-01,sdk/providerhub/azure-resourcemanager-providerhub,2024-09-01,https://github.com/Azure/azure-sdk-for-java/pull/48201
+Resource Provider Service as a Service,Microsoft.ProviderHub,providerhub,,Done,,,,specification/providerhub/ProviderHub.Management/tspconfig.yaml,2024-09-01,sdk/providerhub/azure-resourcemanager-providerhub,2024-09-01,https://github.com/Azure/azure-sdk-for-java/pull/48201
 Redis Enterprise,Microsoft.Cache,redisenterprise,,,,,,specification/redisenterprise/RedisEnterprise.Management/tspconfig.yaml,2025-08-01-preview,sdk/redisenterprise/azure-resourcemanager-redisenterprise,2025-07-01,
 Azure Policy,Microsoft.Authorization,resources/Microsoft.Authorization/policy,,AlreadyTypeSpec,,,,,,,,
 App Service (Web Apps),microsoft.web,web,,AlreadyTypeSpec,,,,,,,,
