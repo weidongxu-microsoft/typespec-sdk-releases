@@ -1,6 +1,6 @@
 Service,ARM Namespace,Spec Folder,.Net,Java,Python,JS,GO,tspconfig,SpecApiVersion,SdkFolder,SdkApiVersion,SdkPr,Comment
 Azure Storage Actions,Microsoft.StorageActions,storageactions,Done,AlreadyTypeSpec,,,,,,,,,
-Bing Search APIs,Microsoft.Bing,bing,,NO_SPEC,,,,,,,,,
+Bing Search APIs,Microsoft.Bing,bing,,NO_SPEC,,,,,,,,,Microsoft.Bing not found in specs repo
 Reservations RP,Microsoft.BillingBenefits,billingbenefits,,,,,,specification/billingbenefits/BillingBenefits.Management/tspconfig.yaml,2024-11-01-preview,sdk/billingbenefits/azure-resourcemanager-billingbenefits,2022-11-01,,
 Azure Device Provisioning Service,Microsoft.Devices,deviceprovisioningservices,Done,AlreadyTypeSpec,,,,,,,,,
 Azure DNS Public Zones,Microsoft.Network,dns,,Premium,,,,,,,,,
@@ -52,7 +52,7 @@ CCM API - CostManagement,microsoft.costmanagement,cost-management,,,,,,specifica
 Azure Stack Edge Service,microsoft.databoxedge,databoxedge,,,,,,specification/databoxedge/resource-manager/Microsoft.DataBoxEdge/DataBoxEdge/tspconfig.yaml,2023-12-01,sdk/databoxedge/azure-resourcemanager-databoxedge,2019-08-01,,
 Service Bus,Microsoft.EventHub,eventhub,,Premium,,,,,,,,,
 Azure NetApp Files,Microsoft.NetApp,netapp,,AlreadyTypeSpec,,,,,,,,,
-Network Cloud,Microsoft.NetworkCloud,networkcloud,,NO_SPEC,,,,,,,,,
+Network Cloud,Microsoft.NetworkCloud,networkcloud,,NO_SPEC,,,,,,,,,No TypeSpec
 Liftr-Newrelic,NewRelic.Observability,newrelic,,Done,,,,specification/newrelic/NewRelicObservability.Management/tspconfig.yaml,2025-05-01-preview,sdk/newrelicobservability/azure-resourcemanager-newrelicobservability,2025-05-01-preview,https://github.com/Azure/azure-sdk-for-java/pull/48200,
 Liftr-PAN,PaloAltoNetworks.Cloudngfw,paloaltonetworks,,AlreadyTypeSpec,,,,,,,,,
 Azure Database for PostgreSQL - Flexible Server,microsoft.dbforpostgresql,postgresql,,,,,,specification/postgresql/DBforPostgreSQL.Management/tspconfig.yaml,2026-01-01-preview,sdk/postgresql/azure-resourcemanager-postgresql,inconsistent,,
@@ -63,7 +63,7 @@ Microsoft Azure Attestation,Microsoft.Attestation,attestation,,,,,,specification
 Azure Batch,Microsoft.Batch,batch,,,,,,specification/batch/resource-manager/Microsoft.Batch/Batch/tspconfig.yaml,2025-06-01,sdk/batch/azure-resourcemanager-batch,2024-07-01,,
 Azure Container Registry,Microsoft.ContainerRegistry,containerregistry,,AlreadyTypeSpec,,,,,,,,,
 Azure Monitor Grafana,Microsoft.Dashboard,dashboard,,AlreadyTypeSpec,,,,,,,,,
-AIOps Orchestration,Microsoft.HybridNetwork,hybridnetwork,,NO_SPEC,,,,,,,,,
+AIOps Orchestration,Microsoft.HybridNetwork,hybridnetwork,,NO_SPEC,,,,,,,,,No TypeSpec
 Project Vienna Services,Microsoft.MachineLearningServices,machinelearningservices,,,,,,specification/machinelearningservices/MachineLearningServices.Management/tspconfig.yaml,2025-12-01,sdk/machinelearning/azure-resourcemanager-machinelearning,2024-04-01,,
 Groups RP,Microsoft.Management,management/Microsoft.Management/ManagementGroups,,,,,,specification/management/resource-manager/Microsoft.Management/ManagementGroups/tspconfig.yaml,2023-04-01,sdk/managementgroups/azure-resourcemanager-managementgroups,2021-04-01,,
 Microsoft Azure Peering Service,Microsoft.Peering,peering,,,,,,specification/peering/resource-manager/Microsoft.Peering/Peering/tspconfig.yaml,2025-05-01,sdk/peering/azure-resourcemanager-peering,2021-01-01,,
