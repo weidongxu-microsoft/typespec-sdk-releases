@@ -10,7 +10,7 @@ Azure Automanage,Microsoft.GuestConfiguration,guestconfiguration,,,,,,specificat
 Azure Dedicated HSM,Microsoft.HardwareSecurityModules,hardwaresecuritymodules,Done,AlreadyTypeSpec,,,,,,,,
 Microsoft Diagnostics RP,Microsoft.Help,help,Done,Done,,,,specification/help/resource-manager/Microsoft.Help/Help/tspconfig.yaml,2024-03-01-preview,sdk/selfhelp/azure-resourcemanager-selfhelp,2024-03-01-preview,https://github.com/Azure/azure-sdk-for-java/pull/48195
 Kubernetes Connect Service,Microsoft.Kubernetes,hybridkubernetes,Done,,,,,specification/hybridkubernetes/HybridKubernetes.Management/tspconfig.yaml,2025-12-01-preview,sdk/hybridkubernetes/azure-resourcemanager-hybridkubernetes,2024-12-01-preview,
-Planned Maintenance,Microsoft.Maintenance,maintenance,,,,,,specification/maintenance/resource-manager/Microsoft.Maintenance/Maintenance/tspconfig.yaml,2023-10-01-preview,sdk/maintenance/azure-resourcemanager-maintenance,2023-10-01-preview,
+Planned Maintenance,Microsoft.Maintenance,maintenance,,Done,,,,specification/maintenance/resource-manager/Microsoft.Maintenance/Maintenance/tspconfig.yaml,2023-10-01-preview,sdk/maintenance/azure-resourcemanager-maintenance,2023-10-01-preview,https://github.com/Azure/azure-sdk-for-java/pull/48216
 Azure Notification Hubs,Microsoft.NotificationHubs,notificationhubs,,,,,,specification/notificationhubs/resource-manager/Microsoft.NotificationHubs/NotificationHubs/tspconfig.yaml,2023-10-01-preview,sdk/notificationhubs/azure-resourcemanager-notificationhubs,2017-04-01,
 Azure DNS Private Zones,Microsoft.Network,privatedns,,Premium,,,,specification/privatedns/resource-manager/Microsoft.Network/PrivateDns/tspconfig.yaml,2024-06-01,,,
 Azure Site Recovery,Microsoft.RecoveryServices,recoveryservices,,AlreadyTypeSpec,,,,,,,,
