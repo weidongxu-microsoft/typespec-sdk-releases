@@ -73,7 +73,7 @@ Azure Policy,Microsoft.Authorization,resources/Microsoft.Authorization/policy,,A
 App Service (Web Apps),microsoft.web,web,,AlreadyTypeSpec,,,,,,,,
 App Service (Web Apps),microsoft.web,web/certificationregistration,,AlreadyTypeSpec,,,,,,,,
 App Service (Web Apps),microsoft.web,web/domainregistration,,AlreadyTypeSpec,,,,,,,,
-Azure Alerts Management,Microsoft.AlertsManagement,alertsmanagement,,,,,,specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/tspconfig.yaml,2021-08-08,sdk/alertsmanagement/azure-resourcemanager-alertsmanagement,2021-08-08,
+Azure Alerts Management,Microsoft.AlertsManagement,alertsmanagement,,,,,,specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/tspconfig.yaml,2025-05-25-preview,sdk/alertsmanagement/azure-resourcemanager-alertsmanagement,2021-08-08,
 Azure Stack HCI,Microsoft.AzureStackHCI,azurestackhci,,AlreadyTypeSpec,,,,,,,,
 Usage (Usage V3),Microsoft.Commerce,commerce,,,,,,specification/commerce/resource-manager/Microsoft.Commerce/Commerce/tspconfig.yaml,2015-06-01-preview,sdk/commerce/azure-resourcemanager-commerce,2015-06-01-preview,
 Azure Kubernetes Service,microsoft.containerservice,containerservice,,Premium,,,,specification/containerservice/resource-manager/Microsoft.ContainerService/aks/tspconfig.yaml,2025-10-02-preview,,,
