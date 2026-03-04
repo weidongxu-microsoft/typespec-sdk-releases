@@ -75,7 +75,7 @@ App Service (Web Apps),microsoft.web,web/certificationregistration,,AlreadyTypeS
 App Service (Web Apps),microsoft.web,web/domainregistration,,AlreadyTypeSpec,,,,,,,,,
 Azure Alerts Management,Microsoft.AlertsManagement,alertsmanagement,,,,,,specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/tspconfig.yaml,2025-05-25-preview,sdk/alertsmanagement/azure-resourcemanager-alertsmanagement,2021-08-08,,
 Azure Stack HCI,Microsoft.AzureStackHCI,azurestackhci,,AlreadyTypeSpec,,,,,,,,,
-Usage (Usage V3),Microsoft.Commerce,commerce,,,,,,specification/commerce/resource-manager/Microsoft.Commerce/Commerce/tspconfig.yaml,2015-06-01-preview,sdk/commerce/azure-resourcemanager-commerce,2015-06-01-preview,,
+Usage (Usage V3),Microsoft.Commerce,commerce,,Done,,,,specification/commerce/resource-manager/Microsoft.Commerce/Commerce/tspconfig.yaml,2015-06-01-preview,sdk/commerce/azure-resourcemanager-commerce,2015-06-01-preview,https://github.com/Azure/azure-sdk-for-java/pull/48234,
 Azure Kubernetes Service,microsoft.containerservice,containerservice,,Premium,,,,specification/containerservice/resource-manager/Microsoft.ContainerService/aks/tspconfig.yaml,2025-10-02-preview,,,,
 Cluster Configuration,Microsoft.KubernetesConfiguration,kubernetesconfiguration,,,,,,specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions/tspconfig.yaml,2024-11-01,sdk/kubernetesconfiguration/azure-resourcemanager-kubernetesconfiguration,2023-05-01,,
 Azure Maps,Microsoft.Maps,maps,,,,,,specification/maps/resource-manager/Microsoft.Maps/Maps/tspconfig.yaml,2025-10-01-preview,sdk/maps/azure-resourcemanager-maps,2023-06-01,,
