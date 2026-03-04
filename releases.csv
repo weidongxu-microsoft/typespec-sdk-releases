@@ -1,7 +1,7 @@
 Service,ARM Namespace,Spec Folder,.Net,Java,Python,JS,GO,tspconfig,SpecApiVersion,SdkFolder,SdkApiVersion,SdkPr,Comment
 Azure Storage Actions,Microsoft.StorageActions,storageactions,Done,AlreadyTypeSpec,,,,,,,,,
 Bing Search APIs,Microsoft.Bing,bing,,NO_SPEC,,,,,,,,,Microsoft.Bing not found in specs repo
-Reservations RP,Microsoft.BillingBenefits,billingbenefits,,Validating,,,,specification/billingbenefits/BillingBenefits.Management/tspconfig.yaml,2024-11-01-preview,sdk/billingbenefits/azure-resourcemanager-billingbenefits,2022-11-01,https://github.com/Azure/azure-sdk-for-java/pull/48248,
+Reservations RP,Microsoft.BillingBenefits,billingbenefits,,Done,,,,specification/billingbenefits/BillingBenefits.Management/tspconfig.yaml,2024-11-01-preview,sdk/billingbenefits/azure-resourcemanager-billingbenefits,2022-11-01,https://github.com/Azure/azure-sdk-for-java/pull/48248,
 Azure Device Provisioning Service,Microsoft.Devices,deviceprovisioningservices,Done,AlreadyTypeSpec,,,,,,,,,
 Azure DNS Public Zones,Microsoft.Network,dns,,Premium,,,,,,,,,
 Azure Edge Hardware Center,Microsoft.EdgeOrder,edgeorder,Done,Done,,,,specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/tspconfig.yaml,2024-02-01,sdk/edgeorder/azure-resourcemanager-edgeorder,2021-12-01,https://github.com/Azure/azure-sdk-for-java/pull/48244,
