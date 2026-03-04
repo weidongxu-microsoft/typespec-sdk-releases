@@ -85,5 +85,5 @@ Purview,Microsoft.Purview,purview,,,,,,specification/purview/resource-manager/Mi
 Azure Site Recovery,Microsoft.RecoveryServices,recoveryservicessiterecovery,,,,,,specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/tspconfig.yaml,2025-08-01,sdk/recoveryservicessiterecovery/azure-resourcemanager-recoveryservicessiterecovery,2025-01-01,,
 Azure Search,Microsoft.Search,search,,Premium,,,,,,,,,
 Azure Frontdoor,Microsoft.Network,frontdoor,,,,,,specification/frontdoor/FrontDoor.Management/tspconfig.yaml,2025-10-01,sdk/frontdoor/azure-resourcemanager-frontdoor,inconsistent,,
-NFV Resource Provider,Microsoft.NetworkFunction,networkfunction,,,,,,specification/networkfunction/NetworkFunction.Management/tspconfig.yaml,2022-11-01,sdk/networkfunction/azure-resourcemanager-networkfunction,2022-11-01,,
+NFV Resource Provider,Microsoft.NetworkFunction,networkfunction,,Done,,,,specification/networkfunction/NetworkFunction.Management/tspconfig.yaml,2022-11-01,sdk/networkfunction/azure-resourcemanager-networkfunction,2022-11-01,https://github.com/Azure/azure-sdk-for-java/pull/48223,
 Sevice Fabric,Microsoft.ServiceFabric,servicefabric,,,,,,specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/tspconfig.yaml,2026-03-01-preview,sdk/servicefabric/azure-resourcemanager-servicefabric,2021-06-01,,
