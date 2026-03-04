@@ -1,7 +1,7 @@
 Service,ARM Namespace,Spec Folder,.Net,Java,Python,JS,GO,tspconfig,SpecApiVersion,SdkFolder,SdkApiVersion,SdkPr,Comment
 Azure Storage Actions,Microsoft.StorageActions,storageactions,Done,AlreadyTypeSpec,,,,,,,,,
 Bing Search APIs,Microsoft.Bing,bing,,NO_SPEC,,,,,,,,,Microsoft.Bing not found in specs repo
-Reservations RP,Microsoft.BillingBenefits,billingbenefits,,,,,,specification/billingbenefits/BillingBenefits.Management/tspconfig.yaml,2024-11-01-preview,sdk/billingbenefits/azure-resourcemanager-billingbenefits,2022-11-01,,
+Reservations RP,Microsoft.BillingBenefits,billingbenefits,,Validating,,,,specification/billingbenefits/BillingBenefits.Management/tspconfig.yaml,2024-11-01-preview,sdk/billingbenefits/azure-resourcemanager-billingbenefits,2022-11-01,https://github.com/Azure/azure-sdk-for-java/pull/48248,
 Azure Device Provisioning Service,Microsoft.Devices,deviceprovisioningservices,Done,AlreadyTypeSpec,,,,,,,,,
 Azure DNS Public Zones,Microsoft.Network,dns,,Premium,,,,,,,,,
 Azure Edge Hardware Center,Microsoft.EdgeOrder,edgeorder,Done,Done,,,,specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/tspconfig.yaml,2024-02-01,sdk/edgeorder/azure-resourcemanager-edgeorder,2021-12-01,https://github.com/Azure/azure-sdk-for-java/pull/48244,
@@ -20,7 +20,7 @@ Azure Bot Service,Microsoft.BotService,botservice,,Validating,,,,specification/b
 Fabric Platform MWC,Microsoft.PowerBIdedicated,powerbidedicated,Done,Done,,,,specification/powerbidedicated/resource-manager/Microsoft.PowerBIdedicated/PowerBIDedicated/tspconfig.yaml,2021-01-01,sdk/powerbidedicated/azure-resourcemanager-powerbidedicated,2021-01-01,https://github.com/Azure/azure-sdk-for-java/pull/48221,Fix that valid for other languages https://github.com/Azure/azure-rest-api-specs/pull/40995
 Azure Advisor,Microsoft.Advisor,advisor,,Done,,,,specification/advisor/resource-manager/Microsoft.Advisor/Advisor/tspconfig.yaml,2025-05-01-preview,sdk/advisor/azure-resourcemanager-advisor,2020-01-01,https://github.com/Azure/azure-sdk-for-java/pull/48246,
 CDN Management Service,Microsoft.Cdn,cdn,,Premium,,,,,,,,,
-Azure Confidential Computing Ledger,Microsoft.ConfidentialLedger,confidentialledger,,,,,,specification/confidentialledger/Confidentialledger.Management/tspconfig.yaml,2025-06-10-preview,sdk/confidentialledger/azure-resourcemanager-confidentialledger,2024-09-19-preview,,
+Azure Confidential Computing Ledger,Microsoft.ConfidentialLedger,confidentialledger,,Validating,,,,specification/confidentialledger/Confidentialledger.Management/tspconfig.yaml,2025-06-10-preview,sdk/confidentialledger/azure-resourcemanager-confidentialledger,2024-09-19-preview,https://github.com/Azure/azure-sdk-for-java/pull/48249,
 DataBox Pod & Disk Service,microsoft.databox,databox,,Done,,,,specification/databox/resource-manager/Microsoft.DataBox/DataBox/tspconfig.yaml,2025-07-01,sdk/databox/azure-resourcemanager-databox,2025-02-01,https://github.com/Azure/azure-sdk-for-java/pull/48244,
 Liftr-Datadog,microsoft.datadog,datadog,,,,,,specification/datadog/Datadog.Management/tspconfig.yaml,2025-12-26-preview,sdk/datadog/azure-resourcemanager-datadog,2023-01-01,,
 Backup (MAB),Microsoft.DataProtection,dataprotection,,AlreadyTypeSpec,,,,,,,,,
