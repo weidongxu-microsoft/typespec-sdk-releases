@@ -4,6 +4,7 @@
 
 - Do not create PR, unless specified in this the guide.
 - When create PR, always create draft PR.
+- When asked to "generate sdk", it means run the pipeline (see task `Guide on task "Generate SDK <sdk>"`), not generate or build it on local.
 
 ## Database
 
