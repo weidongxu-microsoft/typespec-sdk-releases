@@ -121,3 +121,20 @@ Read CHANGELOG.md from the pull request. Check the change with [Instructions to 
 See if there is more migitation to be done on the PR.
 
 If no, set the "Java" column to "Done".
+
+## Guide on task "Mitigate breaking changes for <service>"
+
+- DO NOT use MCP tool from azure-mcp-mcp
+- Prefer to use MCP tool from java-sdk-tools
+
+All of below is executed on specs repo.
+
+1. Find the service folder under "specification/<service>".
+2. Find the "tspconfig.yaml", should be under a "resource-manager" sub-folder, or a "<Serivce>.Management" sub-folder.
+3. Create a "mgmt_java_mitigate-typespec-<service>" branch from local "main" branch. (If this branch already exists in local, just switch to it)
+4. Set working directory of the folder of "tspconfig.yaml"
+5. Apply "migitigateMigrationTypeSpec" MCP tool
+6. When done, only commit "tspconfig.yaml" and .tsp files
+7. Create a draft PR
+
+- When generate SDK fails with "duplicate-client-name" error, use `@@clientName(<model>, "<deduplicated-model-name>", "java")` to rename a model.
