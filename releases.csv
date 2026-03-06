@@ -41,7 +41,7 @@
 "Azure SignalR Service","Microsoft.SignalRService","signalr","","Done","","","","specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService/tspconfig.yaml","2025-01-01-preview","sdk/signalr/azure-resourcemanager-signalr","2023-02-01","https://github.com/Azure/azure-sdk-for-java/pull/48291",""
 "SRP","microsoft.storage","storage","","Premium","","","","","","","","",""
 "Azure Storage Mover","Microsoft.StorageMover","storagemover","","AlreadyTypeSpec","","","","","","","","",""
-"Xsync","microsoft.storagesync","storagesync","","","","","","specification/storagesync/resource-manager/Microsoft.StorageSync/StorageSync/tspconfig.yaml","2022-09-01","","not_released","",""
+"Xsync","microsoft.storagesync","storagesync","","Validating","","","","specification/storagesync/resource-manager/Microsoft.StorageSync/StorageSync/tspconfig.yaml","2022-09-01","sdk/storagesync/azure-resourcemanager-storagesync","not_released","https://github.com/Azure/azure-sdk-for-java/pull/48301",""
 "Azure Support Case Mgmt","microsoft.support","support","","Done","","","","specification/support/resource-manager/Microsoft.Support/Support/tspconfig.yaml","2025-06-01-preview","sdk/support/azure-resourcemanager-support","2024-04-01","https://github.com/Azure/azure-sdk-for-java/pull/48296",""
 "Azure SignalR Service","Microsoft.SignalRService","webpubsub","","","","","","specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService/tspconfig.yaml","2025-08-01-preview","sdk/webpubsub/azure-resourcemanager-webpubsub","2024-03-01","",""
 "Compute Recommender","","compute/Recommender","","AlreadyTypeSpec","","","","","","","","",""
