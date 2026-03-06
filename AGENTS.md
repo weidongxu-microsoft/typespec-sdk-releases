@@ -124,7 +124,7 @@ If no, set the "Java" column to "Done".
 
 ## Guide on task "Mitigate breaking changes for {service}"
 
-- DO NOT use MCP tool from azure-mcp-mcp
+- DO NOT use MCP tool from azure-sdk-mcp
 - Prefer to use MCP tool from java-sdk-tools
 
 All of below is executed on specs repo.
@@ -136,6 +136,6 @@ All of below is executed on specs repo.
 5. Apply "mitigateMigrationTypeSpec" MCP tool
 6. When done, only commit "tspconfig.yaml" and .tsp files
 7. Create a draft PR, open in browser
-8. Add label "PublishToCustomers" and "ARMSignedOff" to the draft PR
+8. Add label "PublishToCustomers", "ARMSignedOff", "BreakingChange-Go-Sdk-Approved", "BreakingChange-JavaScript-Sdk-Approved", "BreakingChange-Python-Sdk-Approved" to the draft PR
 
 - When generate SDK fails with "duplicate-client-name" error, use `@@clientName({model}, "{deduplicated-model-name}", "java")` to rename a model.
