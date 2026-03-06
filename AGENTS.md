@@ -120,7 +120,7 @@ Read CHANGELOG.md from the pull request. Check the change with [Instructions to 
 
 See if there is more mitigation to be done on the PR.
 
-If no, set the "Java" column to "Done".
+If no, set the "Java" column to "Done". And close the PR.
 
 ## Guide on task "Mitigate breaking changes for {service}"
 
