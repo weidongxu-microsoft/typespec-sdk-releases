@@ -107,3 +107,11 @@ For the row specified:
 4. Wait for the pipeline run to complete
 5. Check recent PR on https://github.com/Azure/azure-sdk-for-java/pulls, find "Increment versions for <service>", approve the PR, and open it in browser
 6. Wait for all CI checks on the PR to pass, then merge the PR.
+
+## Guide on task "Validate CHANGELOG <pullrequest>"
+
+Read CHANGELOG.md from the pull request. Check the change with [Instructions to mitigate breaks](https://github.com/weidongxu-microsoft/java-sdk-tools/blob/main/mcp/assets/migrate-instructions.md)
+
+See if there is more migitation to be done on the PR.
+
+If no, set the "Java" column to "Done".
