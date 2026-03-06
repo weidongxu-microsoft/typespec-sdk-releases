@@ -47,7 +47,7 @@
 "Compute Recommender","","compute/Recommender","","AlreadyTypeSpec","","","","","","","","",""
 "Liftr-Dynatrace","dynatrace.observability","dynatrace","","Validating","","","","specification/dynatrace/Dynatrace.Management/tspconfig.yaml","2024-04-24","sdk/dynatrace/azure-resourcemanager-dynatrace","2023-04-27","https://github.com/Azure/azure-sdk-for-java/pull/48294",""
 "Azure App Configuration","Microsoft.AppConfiguration","appconfiguration","","AlreadyTypeSpec","","","","","","","","",""
-"CCM API - Consupmtion","microsoft.consumption","consumption","","Validating","","","","specification/consumption/resource-manager/Microsoft.Consumption/Consumption/tspconfig.yaml","2024-08-01","sdk/consumption/azure-resourcemanager-consumption","2021-10-01","https://github.com/Azure/azure-sdk-for-java/pull/48290",""
+"CCM API - Consupmtion","microsoft.consumption","consumption","","Done","","","","specification/consumption/resource-manager/Microsoft.Consumption/Consumption/tspconfig.yaml","2024-08-01","sdk/consumption/azure-resourcemanager-consumption","2021-10-01","https://github.com/Azure/azure-sdk-for-java/pull/48290",""
 "CCM API - CostManagement","microsoft.costmanagement","cost-management","","","","","","specification/cost-management/resource-manager/Microsoft.CostManagement/CostManagement/tspconfig.yaml","2025-03-01","sdk/costmanagement/azure-resourcemanager-costmanagement","2022-10-01","",""
 "Azure Stack Edge Service","microsoft.databoxedge","databoxedge","","","","","","specification/databoxedge/resource-manager/Microsoft.DataBoxEdge/DataBoxEdge/tspconfig.yaml","2023-12-01","sdk/databoxedge/azure-resourcemanager-databoxedge","2019-08-01","",""
 "Service Bus","Microsoft.EventHub","eventhub","","Premium","","","","","","","","",""
