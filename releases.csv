@@ -24,7 +24,7 @@
 "DataBox Pod & Disk Service","microsoft.databox","databox","","Done","","","","specification/databox/resource-manager/Microsoft.DataBox/DataBox/tspconfig.yaml","2025-07-01","sdk/databox/azure-resourcemanager-databox","2025-02-01","https://github.com/Azure/azure-sdk-for-java/pull/48244",""
 "Liftr-Datadog","microsoft.datadog","datadog","","Done","","","","specification/datadog/Datadog.Management/tspconfig.yaml","2025-12-26-preview","sdk/datadog/azure-resourcemanager-datadog","2023-01-01","https://github.com/Azure/azure-sdk-for-java/pull/48292",""
 "Backup (MAB)","Microsoft.DataProtection","dataprotection","","AlreadyTypeSpec","","","","","","","","",""
-"DevCenter","Microsoft.DevCenter","devcenter","","Validating","","","","specification/devcenter/DevCenter.Management/tspconfig.yaml","2026-01-01-preview","sdk/devcenter/azure-resourcemanager-devcenter","2024-02-01","https://github.com/Azure/azure-sdk-for-java/pull/48299",""
+"DevCenter","Microsoft.DevCenter","devcenter","","Done","","","","specification/devcenter/DevCenter.Management/tspconfig.yaml","2026-01-01-preview","sdk/devcenter/azure-resourcemanager-devcenter","2024-02-01","https://github.com/Azure/azure-sdk-for-java/pull/48299",""
 "Azure DNS Private Resolver","Microsoft.Network","dnsresolver","","AlreadyTypeSpec","","","","","","","","",""
 "Liftr-Elastic","Microsoft.Elastic","elastic","Done","Done","","","","specification/elastic/Elastic.Management/tspconfig.yaml","2025-06-01","sdk/elastic/azure-resourcemanager-elastic","2025-06-01","https://github.com/Azure/azure-sdk-for-java/pull/48206",""
 "Microsoft Health Agent - HealthBot","Microsoft.HealthBot","healthbot","Done","AlreadyTypeSpec","","","","","","","","",""
