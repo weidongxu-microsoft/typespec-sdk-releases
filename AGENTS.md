@@ -2,8 +2,8 @@
 
 ## Checklist
 
-- Do not create PR, unless specified in this the guide.
-- When create PR, always create draft PR.
+- Do not create PR unless specified in this guide.
+- When creating PR, always create draft PR.
 - When asked to "generate sdk via pipeline", it means run the pipeline (see task `Guide on task "Generate SDK <sdk> via pipeline"`), not generate or build it on local.
 
 ## Database
@@ -95,7 +95,7 @@ For the row specified:
    - Set "Create SDK pull request" to "true"
    - When specified, set "SDK repository branch" to "target-sdk-repo-branch" (that of sdk PR)
    - When specified, set "commit" as "commit-sha" (that of specs PR)
-   Use the token from Azure CLI to call the REST API of the "dev.azure.com" endpoint (preferrable using `az rest` and let Azure CLI handle the token, with `Content-Type=application/json` via `--header`)
+  Use the token from Azure CLI to call the REST API of the "dev.azure.com" endpoint (preferably using `az rest` and let Azure CLI handle the token, with `Content-Type=application/json` via `--header`)
 2. Wait for the pipeline run to complete
 3. Check recent PR on https://github.com/Azure/azure-sdk-for-java/pulls, find "[AutoPR <sdk-package>]*", approve the PR, and open it in browser
 4. Add the link of PR to "SdkPr" column
@@ -118,7 +118,7 @@ For the row specified:
 
 Read CHANGELOG.md from the pull request. Check the change with [Instructions to mitigate breaks](https://github.com/weidongxu-microsoft/java-sdk-tools/blob/main/mcp/assets/migrate-instructions.md)
 
-See if there is more migitation to be done on the PR.
+See if there is more mitigation to be done on the PR.
 
 If no, set the "Java" column to "Done".
 
@@ -130,11 +130,11 @@ If no, set the "Java" column to "Done".
 All of below is executed on specs repo.
 
 1. Find the service folder under "specification/<service>".
-2. Find the "tspconfig.yaml", should be under a "resource-manager" sub-folder, or a "<Serivce>.Management" sub-folder.
+2. Find the "tspconfig.yaml", should be under a "resource-manager" sub-folder, or a "<Service>.Management" sub-folder.
 3. Create a "mgmt_java_mitigate-typespec-<service>" branch from local "main" branch, on specs repo. (If this branch already exists in local, just switch to it)
 4. Set working directory of the folder of "tspconfig.yaml"
-5. Apply "migitigateMigrationTypeSpec" MCP tool
+5. Apply "mitigateMigrationTypeSpec" MCP tool
 6. When done, only commit "tspconfig.yaml" and .tsp files
-7. Create a draft PR
+7. Create a draft PR, open in browser
 
 - When generate SDK fails with "duplicate-client-name" error, use `@@clientName(<model>, "<deduplicated-model-name>", "java")` to rename a model.
