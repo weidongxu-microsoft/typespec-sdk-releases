@@ -4,7 +4,7 @@
 
 - Do not create PR, unless specified in this the guide.
 - When create PR, always create draft PR.
-- When asked to "generate sdk", it means run the pipeline (see task `Guide on task "Generate SDK <sdk>"`), not generate or build it on local.
+- When asked to "generate sdk via pipeline", it means run the pipeline (see task `Guide on task "Generate SDK <sdk> via pipeline"`), not generate or build it on local.
 
 ## Database
 
@@ -80,7 +80,7 @@ If api-version is not consistent, add "inconsistent" to the column.
 
 List the rows that cannot find the "SdkApiVersion".
 
-## Guide on task "Generate SDK <sdk>"
+## Guide on task "Generate SDK <sdk> via pipeline"
 
 If the ask contains "from specs PR <specs-pull-request>", get the HEAD SHA on the PR as "commit-sha".
 
@@ -131,7 +131,7 @@ All of below is executed on specs repo.
 
 1. Find the service folder under "specification/<service>".
 2. Find the "tspconfig.yaml", should be under a "resource-manager" sub-folder, or a "<Serivce>.Management" sub-folder.
-3. Create a "mgmt_java_mitigate-typespec-<service>" branch from local "main" branch. (If this branch already exists in local, just switch to it)
+3. Create a "mgmt_java_mitigate-typespec-<service>" branch from local "main" branch, on specs repo. (If this branch already exists in local, just switch to it)
 4. Set working directory of the folder of "tspconfig.yaml"
 5. Apply "migitigateMigrationTypeSpec" MCP tool
 6. When done, only commit "tspconfig.yaml" and .tsp files
