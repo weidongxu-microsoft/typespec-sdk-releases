@@ -36,7 +36,7 @@
 "QuotaManagement","Microsoft.Quota","quota","","AlreadyTypeSpec","","","","","","","","",""
 "Backup (MAB)","microsoft.recoveryservices","recoveryservicesbackup","","AlreadyTypeSpec","","","","","","","","",""
 "Redis Cache","microsoft.cache","redis","","Premium","","","","","","","","",""
-"Service Bus","microsoft.relay","relay","","Validating","","","","specification/relay/resource-manager/Microsoft.Relay/Relay/tspconfig.yaml","2024-01-01","sdk/relay/azure-resourcemanager-relay","2017-04-01","https://github.com/Azure/azure-sdk-for-java/pull/48303",""
+"Service Bus","microsoft.relay","relay","","Done","","","","specification/relay/resource-manager/Microsoft.Relay/Relay/tspconfig.yaml","2024-01-01","sdk/relay/azure-resourcemanager-relay","2017-04-01","https://github.com/Azure/azure-sdk-for-java/pull/48303",""
 "Service Bus","microsoft.servicebus","servicebus","","Premium","","","","","","","","",""
 "Azure SignalR Service","Microsoft.SignalRService","signalr","","Done","","","","specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService/tspconfig.yaml","2025-01-01-preview","sdk/signalr/azure-resourcemanager-signalr","2023-02-01","https://github.com/Azure/azure-sdk-for-java/pull/48291",""
 "SRP","microsoft.storage","storage","","Premium","","","","","","","","",""
