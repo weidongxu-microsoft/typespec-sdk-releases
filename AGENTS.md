@@ -82,6 +82,10 @@ List the rows that cannot find the "SdkApiVersion".
 
 ## Guide on task "Generate SDK <sdk>"
 
+If the ask contains "from specs PR <specs-pull-request>", get the HEAD SHA on the PR as "commit-sha".
+
+If the ask contains "to sdk PR <sdk-pull-request>", get the branch on PR (should be `sdkauto/azure-resourcemanager-xxx`) as "target-sdk-repo-branch".
+
 For the row specified:
 
 1. Run pipeline https://dev.azure.com/azure-sdk/internal/_build?definitionId=7421 via REST API
@@ -89,6 +93,8 @@ For the row specified:
    - Set "API version" in "SpecApiVersion" column
    - Set "SDK release type" as beta/stable, depends on whether "SpecApiVersion" contains "-preview"
    - Set "Create SDK pull request" to "true"
+   - When specified, set "SDK repository branch" to "target-sdk-repo-branch" (that of sdk PR)
+   - When specified, set "commit" as "commit-sha" (that of specs PR)
    Use the token from Azure CLI to call the REST API of the "dev.azure.com" endpoint (preferrable using `az rest` and let Azure CLI handle the token, with `Content-Type=application/json` via `--header`)
 2. Wait for the pipeline run to complete
 3. Check recent PR on https://github.com/Azure/azure-sdk-for-java/pulls, find "[AutoPR <sdk-package>]*", approve the PR, and open it in browser
