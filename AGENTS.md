@@ -136,5 +136,6 @@ All of below is executed on specs repo.
 5. Apply "mitigateMigrationTypeSpec" MCP tool
 6. When done, only commit "tspconfig.yaml" and .tsp files
 7. Create a draft PR, open in browser
+8. Add label "PublishToCustomers" and "ARMSignedOff" to the draft PR
 
 - When generate SDK fails with "duplicate-client-name" error, use `@@clientName({model}, "{deduplicated-model-name}", "java")` to rename a model.
