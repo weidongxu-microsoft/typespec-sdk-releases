@@ -38,7 +38,7 @@ For each row (not in terminal state) in database, check folder "sdk/{SpecFolder}
 
 Add a "tspconfig" column in database, if not exist.
 
-For each row (not in terminal state) in database, check folder "specification/{SpecFolder}/**/*.Management/**" or "specification/{SpecFolder}/resource-manager/**" in specs repo, find the "tspconfig.yaml"
+For each row (not in terminal state) in database, check folder `specification/{SpecFolder}/**/*.Management/**` or `specification/{SpecFolder}/resource-manager/**` in specs repo, find the "tspconfig.yaml"
 
 Add the relative path (from specs repo) to the "tspconfig" column.
 
