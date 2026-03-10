@@ -105,9 +105,9 @@ For the row specified:
 
 For the row specified:
 
-1. Find pipeline of "java - {service}" pipeline from https://dev.azure.com/azure-sdk/internal/_build ("{service} is extracted from "SdkFolder" column -- `sdk/{service}/{sdk-package}`)
+1. Find pipeline of "java - {service}" pipeline from https://dev.azure.com/azure-sdk/internal/_build ("{service}" is extracted from "SdkFolder" column -- `sdk/{service}/{sdk-package}`)
 2. Run the pipeline
-  - If the pipeline has "templateParameters", set the parameter of "release_{sdk-package}" to "true", all other parameters to "false"
+   - If the pipeline has "templateParameters", set the parameter of "release_{sdk-package}" to "true", all other parameters to "false"
    - If the pipeline has no "templateParameters", just run it without parameters
 3. Open the pipeline run in browser
 4. Wait for the pipeline run to complete
