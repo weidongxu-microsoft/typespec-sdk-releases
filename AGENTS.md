@@ -30,9 +30,9 @@ The database is the "releases.csv" file.
 - **NO_SPEC**
   No TypeSpec source found. Nothing we can do.
 
-<!-- ## Guide on task "Update SDK state"
+## Guide on task "Update SDK state"
 
-For each row (not in terminal state) in database, check folder "sdk/{SpecFolder}/azure-resourcemanager-##" in sdk repo. If there is a "tsp-location.yaml" in the folder, update the "Java" column to "AlreadyTypeSpec". -->
+For each row (not in terminal state) in database, check folder "sdk/{SpecFolder}/azure-resourcemanager-##" in sdk repo. If there is a "tsp-location.yaml" in the folder, update the "Java" column to "AlreadyTypeSpec".
 
 ## Guide on task "Update tspconfig column"
 
