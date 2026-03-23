@@ -118,10 +118,9 @@ For the row specified:
 
 Read CHANGELOG.md from the pull request. Check the change with [Instructions to mitigate breaks](https://github.com/weidongxu-microsoft/java-sdk-tools/blob/main/mcp/assets/migrate-instructions.md)
 
-Wait for some (say, 5) of the CI to finish. Raise an issue, if you see the majority of them are failure.
+Wait for the CI to finish. Make sure most of the "Build Test" CI pass.
 
-If CI is mostly good, check if there is more mitigation to be done on the PR.
-
+If CI is good, check if there is more mitigation to be done on the PR.
 If no, set the "Java" column to "Done". And close the PR.
 
 ## Guide on task "Mitigate breaking changes for {service}"
