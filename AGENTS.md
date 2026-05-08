@@ -19,12 +19,16 @@ The database is the "releases.csv" file.
 
 ## Terminal state
 
-"AlreadyTypeSpec", "Done", "Premium", "NO_SPEC" in "Java" column is a terminal state. Skip process on these rows.
+"AlreadyTypeSpec", "Done", "Released", "NoSDK", "Premium", "NO_SPEC" in "Java" column is a terminal state. Skip process on these rows.
 
 - **AlreadyTypeSpec**
   Java SDK is already generated and released from TypeSpec. We don't need to release again.
 - **Done**
-  We've validate the SDK PR from TypeSpec ("SdkPr" column). If both api-version is same, we've also released the SDK.
+  We've validate the SDK PR from TypeSpec ("SdkPr" column).
+- **Released**
+  We've validate the SDK PR from TypeSpec ("SdkPr" column). And since both api-version is same, we've also released the SDK.
+- **NoSDK**
+  SDK not generated. There is nothing to validate.
 - **Premium**
   This is hand-written lib, we have a different agent to process them.
 - **NO_SPEC**
