@@ -197,7 +197,7 @@ Terraform,No,Microsoft.AzureTerraform,terraform,Done,AlreadyTypeSpec,NotStarted,
 TrustedSigning,No,Microsoft.CodeSigning,codesigning,Done,Done,NotStarted,,NotStarted,specification/codesigning/CodeSigning.Management/tspconfig.yaml,2025-10-13,,not_released,,
 VirtualEnclaves,No,,,Done,,NotStarted,,NotStarted,,,,,,
 WeightsAndBiases,No,Microsoft.WeightsAndBiases,liftrweightsandbiases,Done,Done,NotStarted,,NotStarted,specification/liftrweightsandbiases/Liftr.WeightsAndBiases.Management/tspconfig.yaml,2024-09-18,,not_released,,
-WorkloadOrchestration,No,,,Done,,NotStarted,,NotStarted,,,,,,
+WorkloadOrchestration,No,Microsoft.Workloads,workloads,Done,NotStarted,NotStarted,,NotStarted,specification/workloads/Workloads.Operations.Management/tspconfig.yaml,,,,,
 WorkloadsSapVirtualInstance,No,Microsoft.Workloads,workloads,Done,NotStarted,NotStarted,,NotStarted,specification/workloads/Workloads.SAPVirtualInstance.Management/tspconfig.yaml,2024-09-01,sdk/workloads/azure-resourcemanager-workloads,2023-04-01,,
 Azure Site Recovery,Yes,Microsoft.RecoveryServices,recoveryservices,,AlreadyTypeSpec,Released,Released,NotStarted,,,,,,
 Azure Network,Yes,Microsoft.Network,network,,Done,,,,,,,,,No TypeSpec
