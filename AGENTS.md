@@ -92,7 +92,7 @@ For the row specified:
 
 1. Run pipeline https://dev.azure.com/azure-sdk/internal/_build?definitionId=7421 via REST API
    - Set "Path to API specification file" as value in "tspconfig" column
-   - Set "API version" in "SpecApiVersion" column
+   - Set "API version" in "SpecApiVersion" column; If "SpecApiVersion" is "composite", set "API version" as "none"
    - Set "SDK release type" as beta/stable, depends on whether "SpecApiVersion" contains "-preview"
    - Set "Create SDK pull request" to "true"
    - When specified, set "SDK repository branch" to "target-sdk-repo-branch" (that of sdk PR)
