@@ -98,10 +98,11 @@ For the row specified:
    - When specified, set "SDK repository branch" to "target-sdk-repo-branch" (that of sdk PR)
    - When specified, set "commit" as "commit-sha" (that of specs PR)
   Use the token from Azure CLI to call the REST API of the "dev.azure.com" endpoint (preferably using `az rest` and let Azure CLI handle the token, with `Content-Type=application/json` via `--header`)
-2. Wait for the pipeline run to complete
-3. Check recent PR on https://github.com/Azure/azure-sdk-for-java/pulls, find "[AutoPR {sdk-package}]*", approve the PR, and open it in browser
-4. Add the link of PR to "SdkPr" column
-5. Set "Validating" to "Java" column
+2. Verify the parameters in pipeline are correct
+3. Wait for the pipeline run to complete
+4. Check recent PR on https://github.com/Azure/azure-sdk-for-java/pulls, find "[AutoPR {sdk-package}]*", approve the PR, and open it in browser
+5. Add the link of PR to "SdkPr" column
+6. Set "Validating" to "Java" column
 
 ## Guide on task "Release SDK {sdk}"
 
@@ -111,11 +112,12 @@ For the row specified:
 2. Run the pipeline
    - If the pipeline has "templateParameters", set the parameter of "release_{sdk-package}" to "true", all other parameters to "false"
    - If the pipeline has no "templateParameters", just run it without parameters
-3. Open the pipeline run in browser
-4. Wait for the pipeline run to complete
-5. Check recent PR on https://github.com/Azure/azure-sdk-for-java/pulls, find "Increment versions for {service}", approve the PR, and open it in browser
-6. Wait for all CI checks on the PR to pass, then merge the PR.
-7. Set "Released" to "Java" column
+3. Verify the parameters in pipeline are correct
+4. Open the pipeline run in browser
+5. Wait for the pipeline run to complete
+6. Check recent PR on https://github.com/Azure/azure-sdk-for-java/pulls, find "Increment versions for {service}", approve the PR, and open it in browser
+7. Wait for all CI checks on the PR to pass, then merge the PR.
+8. Set "Released" to "Java" column
 
 ## Guide on task "Validate CHANGELOG {pullrequest}"
 
